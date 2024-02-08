@@ -1,0 +1,36 @@
+.courses-card {
+
+    .top {
+      padding-top: 20px;
+
+      >img {
+        width: 230px;
+        height: 150px;
+      }
+    }
+
+    .bottom {
+      padding-top: 10px;
+
+      >p {
+        padding-top: 5px;
+      }
+
+      .rating {
+        display: flex;
+        gap: 10px;
+        padding-top: 10px;
+
+        .star {
+          display: flex;
+          gap: 0;
+        }
+      }
+
+      .price {
+        display: flex;
+        gap: 10px;
+        padding-top: 10px;
+      }
+    }
+  }
