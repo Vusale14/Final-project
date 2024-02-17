@@ -10,27 +10,6 @@
     }
 }
 
-@mixin text-formatter(
-    $color,
-    $weight: normal,
-    $height: normal,
-    $size: normal,
-    $family: "Work Sans",
-    $hoverColor: $color,
-    $style: normal,
-) {
-    color: $color; 
-    font-weight: $weight;
-    line-height: $height;
-    font-size: $size;
-    font-family: $family;
-    font-style: $style;
-
-    &:hover {
-        color: $hoverColor;
-    }
-}
-
 @mixin container() {
     width: $desktop-container-width;
     margin: auto;

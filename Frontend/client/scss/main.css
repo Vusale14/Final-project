@@ -1,38 +1,25 @@
-.courses-card .top {
-  padding-top: 20px;
-}
-.courses-card .top > img {
-  width: 230px;
-  height: 150px;
-}
-.courses-card .bottom {
-  padding-top: 10px;
-}
-.courses-card .bottom > p {
-  padding-top: 5px;
-}
-.courses-card .bottom .rating {
-  display: flex;
-  gap: 10px;
-  padding-top: 10px;
-}
-.courses-card .bottom .rating .star {
-  display: flex;
-  gap: 0;
-}
-.courses-card .bottom .price {
-  display: flex;
-  gap: 10px;
-  padding-top: 10px;
-}
-
 .navbar {
+  position: relative;
   width: 100%;
   height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding-top: 10px;
+}
+@media screen and (max-width: 835px) {
+  .navbar {
+    justify-content: space-between;
+  }
+}
+.navbar .fa-bars {
+  display: none;
+}
+@media screen and (max-width: 835px) {
+  .navbar .fa-bars {
+    display: initial;
+    padding-left: 20px;
+  }
 }
 .navbar .navbar-left {
   display: flex;
@@ -40,6 +27,19 @@
   -moz-column-gap: 30px;
        column-gap: 30px;
   padding-left: 15px;
+}
+.navbar .navbar-left ul {
+  display: none;
+}
+@media screen and (max-width: 1250px) {
+  .navbar .navbar-left > p {
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 1250px) and (max-width: 835px) {
+  .navbar .navbar-left > p {
+    display: none;
+  }
 }
 .navbar .navbar-middle {
   display: flex;
@@ -49,6 +49,11 @@
   border: 1px solid black;
   border-radius: 30px;
   gap: 20px;
+}
+@media screen and (max-width: 835px) {
+  .navbar .navbar-middle {
+    display: none;
+  }
 }
 .navbar .navbar-middle > i {
   padding-left: 20px;
@@ -60,6 +65,24 @@
   gap: 20px;
   padding-right: 30px;
 }
+.navbar .navbar-right .fa-magnifying-glass {
+  display: none;
+}
+@media screen and (max-width: 835px) {
+  .navbar .navbar-right .fa-magnifying-glass {
+    display: initial;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .navbar .navbar-right > p {
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 835px) {
+  .navbar .navbar-right > p {
+    display: none;
+  }
+}
 .navbar .navbar-right .login {
   width: 80px;
   height: 35px;
@@ -67,6 +90,11 @@
   align-items: center;
   justify-content: center;
   border: 1px solid black;
+}
+@media screen and (max-width: 835px) {
+  .navbar .navbar-right .login {
+    display: none;
+  }
 }
 .navbar .navbar-right .signup {
   width: 80px;
@@ -76,6 +104,11 @@
   justify-content: center;
   border: 1px solid black;
   background-color: rgba(0, 0, 0, 0.825);
+}
+@media screen and (max-width: 835px) {
+  .navbar .navbar-right .signup {
+    display: none;
+  }
 }
 .navbar .navbar-right .signup > p {
   color: white;
@@ -89,6 +122,12 @@
   border: 1px solid black;
 }
 
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.825);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -96,30 +135,50 @@
 }
 
 body .slider {
-  width: 1300px;
+  width: 1250px;
+  margin: auto;
   height: 500px;
   overflow: hidden;
 }
+@media screen and (max-width: 1250px) {
+  body .slider {
+    width: 835px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .slider {
+    width: 690px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  body .slider {
+    width: 100%;
+  }
+}
 body .slider .container {
   display: flex;
-  animation: carusel-swipe 10s infinite;
+  animation: carusel-swipe 20s infinite;
   margin-top: 40px;
-  margin-left: 120px;
-}
-body .slider .container img {
-  width: 1300px;
 }
 @keyframes carusel-swipe {
   25% {
-    transform: translateX(-1200px);
+    transform: translateX(-1500px);
   }
   50% {
-    transform: translateX(-2400px);
+    transform: translateX(-2840px);
+  }
+  75% {
+    transform: translateX(-4200px);
   }
 }
 body .supporter {
   height: 250px;
   background-color: rgba(128, 128, 128, 0.055);
+}
+@media screen and (max-width: 1250px) {
+  body .supporter {
+    height: 350px;
+  }
 }
 body .supporter .top {
   display: flex;
@@ -131,14 +190,46 @@ body .supporter .down {
   justify-content: center;
   gap: 80px;
 }
+@media screen and (max-width: 1250px) {
+  body .supporter .down {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 50px;
+    padding-left: 150px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .supporter .down {
+    padding-left: 100px;
+  }
+}
 body .supporter .down > img {
   width: 150px;
   height: 150px;
   -o-object-fit: contain;
      object-fit: contain;
 }
+@media screen and (max-width: 1250px) {
+  body .supporter .down > img {
+    width: 100px;
+    height: 100px;
+  }
+}
 body .main {
-  padding: 80px;
+  width: 1250px;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (max-width: 1250px) {
+  body .main {
+    width: 835px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .main {
+    width: 690px;
+  }
 }
 body .main > p {
   padding-top: 20px;
@@ -155,6 +246,16 @@ body .main .courses-table {
   border: 1px solid rgba(0, 0, 0, 0.247);
   padding: 30px;
 }
+@media screen and (max-width: 1250px) {
+  body .main .courses-table {
+    width: 850px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .main .courses-table {
+    width: 700px;
+  }
+}
 body .main .courses-table > h2 {
   padding-bottom: 15px;
 }
@@ -168,8 +269,54 @@ body .main .courses-table .button {
   margin-top: 20px;
 }
 body .main .courses-table .courses {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+body .main .courses-table .courses .courses-card .top {
+  padding-top: 20px;
+}
+body .main .courses-table .courses .courses-card .top > img {
+  width: 230px;
+  height: 150px;
+}
+@media screen and (max-width: 1250px) {
+  body .main .courses-table .courses .courses-card .top > img {
+    width: 255px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .main .courses-table .courses .courses-card .top > img {
+    width: 205px;
+  }
+}
+body .main .courses-table .courses .courses-card .bottom {
+  padding-top: 10px;
+}
+body .main .courses-table .courses .courses-card .bottom > p {
+  padding-top: 5px;
+}
+body .main .courses-table .courses .courses-card .bottom .rating {
   display: flex;
   gap: 10px;
+  padding-top: 10px;
+}
+body .main .courses-table .courses .courses-card .bottom .rating .star {
+  display: flex;
+  gap: 0;
+}
+body .main .courses-table .courses .courses-card .bottom .price {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+@media screen and (max-width: 1250px) {
+  body .main .courses-table .courses #forth {
+    display: none;
+  }
+  body .main .courses-table .courses #fifth {
+    display: none;
+  }
 }
 body .comment {
   width: 100%;
@@ -181,9 +328,25 @@ body .comment > h2 {
   padding-left: 90px;
 }
 body .comment .card-container {
+  width: 1250px;
+  margin: auto;
   display: flex;
-  margin-left: 90px;
   gap: 30px;
+}
+@media screen and (max-width: 1250px) {
+  body .comment .card-container {
+    width: 835px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .comment .card-container {
+    width: 690px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  body .comment .card-container .tree {
+    display: none;
+  }
 }
 body .comment .card-container .comment-card {
   width: 400px;
@@ -191,6 +354,11 @@ body .comment .card-container .comment-card {
   border: 1px solid rgba(0, 0, 0, 0.247);
   margin-top: 20px;
   padding-left: 20px;
+}
+@media screen and (max-width: 835px) {
+  body .comment .card-container .comment-card {
+    width: 330px;
+  }
 }
 body .comment .card-container .comment-card > i {
   padding-top: 20px;
@@ -222,6 +390,11 @@ body .comment .card-container .comment-card .solid {
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin-top: 20px;
 }
+@media screen and (max-width: 835px) {
+  body .comment .card-container .comment-card .solid {
+    width: 250px;
+  }
+}
 body .comment .card-container .comment-card .card-bottom {
   display: flex;
   gap: 10px;
@@ -234,44 +407,129 @@ body .comment .card-container .comment-card .card-bottom > .circle {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
 }
 body .comment .card-container .comment-card .card-bottom > .circle > i {
   color: white;
   width: 10px;
 }
 body .comment .card-container .comment-card .card-bottom > h4 {
-  padding-top: 8px;
   color: #5624d0;
 }
-body .comment .card-container .two .card-middle {
+body .comment .card-container .one .card-middle {
   padding-top: 20px;
+}
+body .comment .card-container .two .card-middle {
+  padding-bottom: -20px;
 }
 body .comment .card-container .tree .card-middle {
-  padding-top: 20px;
+  padding-bottom: -20px;
 }
 body .viewing {
-  margin-top: 20px;
-  margin-left: 90px;
+  width: 1250px;
+  margin: auto;
+  margin-top: 40px;
+}
+@media screen and (max-width: 1250px) {
+  body .viewing {
+    width: 835px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .viewing {
+    width: 690px;
+  }
 }
 body .viewing .card-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
 }
-body .viewing .card-container .courses-card {
-  width: 255px;
+@media screen and (max-width: 1250px) {
+  body .viewing .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 835px) {
+  body .viewing .card-container {
+    gap: 10px;
+  }
+}
+body .viewing .card-container .courses-card .top {
+  padding-top: 20px;
+}
+body .viewing .card-container .courses-card .top > img {
+  width: 230px;
+  height: 150px;
+}
+body .viewing .card-container .courses-card .bottom {
+  padding-top: 10px;
+}
+body .viewing .card-container .courses-card .bottom > p {
+  padding-top: 5px;
+}
+body .viewing .card-container .courses-card .bottom .rating {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+body .viewing .card-container .courses-card .bottom .rating .star {
+  display: flex;
+  gap: 0;
+}
+body .viewing .card-container .courses-card .bottom .price {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+@media screen and (max-width: 1250px) {
+  body .viewing .card-container > #forth {
+    display: none;
+  }
+}
+@media screen and (max-width: 1250px) {
+  body .viewing .card-container > #fifth {
+    display: none;
+  }
 }
 body .viewing .second {
   margin-top: 40px;
 }
+@media screen and (max-width: 1250px) {
+  body .viewing .second > #forth {
+    display: none;
+  }
+}
+@media screen and (max-width: 1250px) {
+  body .viewing .second > #fifth {
+    display: none;
+  }
+}
 body .category {
-  margin-top: 60px;
-  margin-left: 90px;
+  width: 1250px;
+  margin: auto;
+  margin-top: 80px;
+}
+@media screen and (max-width: 1250px) {
+  body .category {
+    width: 835px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .category {
+    width: 690px;
+  }
 }
 body .category .category-container {
   display: flex;
   gap: 20px;
 }
-body .category .category-container .top-categories {
+@media screen and (max-width: 1250px) {
+  body .category .category-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+body .category .category-container .ctgr .top-categories {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -280,31 +538,59 @@ body .category .category-container .top-categories {
   background-color: rgba(128, 128, 128, 0.055);
   margin-top: 30px;
 }
-body .category .category-container .top-categories > img {
+@media screen and (max-width: 1250px) {
+  body .category .category-container .ctgr .top-categories {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .category .category-container .ctgr .top-categories {
+    width: 340px;
+  }
+}
+body .category .category-container .ctgr .top-categories > img {
   width: 250px;
   height: 250px;
 }
-body .category .category-name {
-  display: flex;
-  gap: 265px;
-  margin-top: 20px;
-}
-body .category .category-name #marketing {
-  margin-right: -30px;
-  margin-left: -50px;
+body .category .category-container .ctgr .category-name {
+  padding-top: 20px;
 }
 body .topic {
   width: 100%;
   height: 500px;
   background-color: rgba(128, 128, 128, 0.055);
-  margin-top: 60px;
+  margin-top: 80px;
   padding-top: 60px;
+}
+body .topic > h2 {
   padding-left: 90px;
 }
 body .topic .category-topic {
+  width: 1250px;
+  margin: auto;
   display: flex;
   gap: 200px;
   padding-top: 30px;
+}
+@media screen and (max-width: 1250px) {
+  body .topic .category-topic {
+    width: 835px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .topic .category-topic {
+    width: 690px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  body .topic .category-topic {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .topic .category-topic {
+    gap: 50px;
+  }
 }
 body .topic .category-topic .category-topic-name {
   display: table-row;
@@ -333,8 +619,302 @@ body .topic .category-topic .category-topic-name .third > h3 {
   color: #5624d0;
   text-decoration: underline;
 }
-body .footer {
-  width: 100%;
-  height: 300px;
+body .learn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .learn .left > img {
+  width: 400px;
+  height: 400px;
+}
+@media screen and (max-width: 835px) {
+  body .learn .left > img {
+    width: 300px;
+    height: 300px;
+  }
+}
+body .learn .right {
+  padding-top: 60px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .title {
+  width: 1250px;
+  margin: auto;
+  line-height: 40px;
+}
+@media screen and (max-width: 1250px) {
+  body .title {
+    width: 835px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .title {
+    width: 690px;
+  }
+}
+body .title h1 {
+  padding-top: 60px;
+}
+body .title .learners {
+  display: flex;
+  gap: 10px;
+}
+body .title .learners > .fa-user {
+  padding-top: 10px;
+}
+body .title h2 {
+  padding-top: 40px;
+}
+body .card-container {
+  width: 1250px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  gap: 20px;
+}
+@media screen and (max-width: 1250px) {
+  body .card-container {
+    width: 835px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .card-container {
+    width: 690px;
+  }
+}
+body .card-container .courses-card .top {
+  padding-top: 20px;
+}
+body .card-container .courses-card .top > img {
+  width: 230px;
+  height: 150px;
+}
+body .card-container .courses-card .bottom {
+  padding-top: 10px;
+}
+body .card-container .courses-card .bottom > p {
+  padding-top: 5px;
+}
+body .card-container .courses-card .bottom .rating {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+body .card-container .courses-card .bottom .rating .star {
+  display: flex;
+  gap: 0;
+}
+body .card-container .courses-card .bottom .price {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+body .second {
+  padding-top: 20px;
+}
+body .all-courses {
+  width: 1250px;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 1250px) {
+  body .all-courses {
+    width: 835px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .all-courses {
+    width: 690px;
+  }
+}
+body .all-courses p {
+  padding-top: 20px;
+}
+body .all-courses .small-table {
+  display: flex;
+  gap: 20px;
+  width: 1250px;
+  height: 70px;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  margin-top: 20px;
+  padding-top: 18px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+body .all-courses .small-table > h3 {
+  padding-top: 5px;
+}
+body .all-courses .small-table .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
   background-color: rgba(0, 0, 0, 0.825);
+  border-radius: 50%;
+}
+body .all-courses .small-table .circle > i {
+  color: white;
+}
+body .all-courses > .card-container {
+  display: table-row;
+  padding-top: 20px;
+}
+body .all-courses > .card-container > .courses-card {
+  display: flex;
+  gap: 20px;
+  width: 1250px;
+}
+body .all-courses > .card-container > .courses-card > .top img {
+  width: 400px;
+  height: 200px;
+}
+body .all-courses > .card-container > .courses-card > .bottom {
+  padding-top: 20px;
+  line-height: 20px;
+}
+body .all-courses > .card-container > .courses-card > .bottom > .rating h4 {
+  padding-top: 7px;
+}
+body .all-courses > .card-container > .courses-card > .bottom > .rating p {
+  padding-top: 5px;
+}
+body .all-courses > .card-container > .courses-card > .bottom > .rating .star {
+  padding-top: 8px;
+}
+body .all-courses > .card-container > .courses-card > .bottom .mini-info {
+  display: flex;
+  gap: 10px;
+}
+body .all-courses > .card-container > .courses-card > .price {
+  padding-top: 45px;
+  padding-left: 20px;
+}
+body .all-courses > .card-container .seven .price {
+  padding-left: 50px;
+}
+body .all-courses > .card-container .eight .price {
+  padding-left: 80px;
+}
+body .all-courses > .card-container .fifteen .price {
+  padding-left: 60px;
+}
+body .all-courses > .card-container .card .price {
+  padding-left: 70px;
+}
+body .all-courses > .card-container .cart .price {
+  padding-left: 250px;
+}
+body .all-courses > .card-container .six-card .price {
+  padding-left: 110px;
+}
+body .all-courses > .card-container .eight-card .price {
+  padding-left: 350px;
+}
+body .all-courses > .card-container .ten-card .price {
+  padding-left: 150px;
+}
+body .all-courses > .card-container .fourteen-card .price {
+  padding-left: 270px;
+}
+body .all-courses > .card-container .fifteen-card .price {
+  padding-left: 130px;
+}
+body .all-courses > .card-container .nine-card .price {
+  padding-left: 50px;
+}
+body .all-courses > .card-container .ten-cart .price {
+  padding-left: 50px;
+}
+body .all-courses > .card-container .thirteen-card .price {
+  padding-left: 180px;
+}
+body .all-courses > .card-container .three-card .price {
+  padding-left: 70px;
+}
+body .all-courses > .card-container .six-cart .price {
+  padding-left: 90px;
+}
+body .all-courses > .card-container .seven-cart .price {
+  padding-left: 80px;
+}
+body .all-courses > .card-container .eight-cart .price {
+  padding-left: 70px;
+}
+body .all-courses > .card-container .twelve-card .price {
+  padding-left: 400px;
+}
+body .all-courses > .card-container .thirteen-cart .price {
+  padding-left: 290px;
+}
+body .all-courses > .card-container .card-ten .price {
+  padding-left: 150px;
+}
+body .all-courses > .card-container .card-twelve .price {
+  padding-left: 210px;
+}
+body .all-courses > .card-container .card-thirteen .price {
+  padding-left: 250px;
+}
+body .all-courses > .card-container .card-fifteen .price {
+  padding-left: 50px;
+}
+body .all-courses .solid {
+  width: 1260px;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+  margin-top: 15px;
+}
+body .solid {
+  width: 1250px;
+  margin: auto;
+  width: 1260px;
+  border: 1px solid rgba(0, 0, 0, 0.209);
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1250px) {
+  body .solid {
+    width: 835px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .solid {
+    width: 690px;
+  }
+}
+body .info {
+  width: 1250px;
+  margin: auto;
+  width: 650px;
+  height: 500px;
+  padding-left: 20px;
+}
+@media screen and (max-width: 1250px) {
+  body .info {
+    width: 835px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .info {
+    width: 690px;
+  }
+}
+body .info > p {
+  padding-top: 20px;
+}
+body .info > h2 {
+  padding-top: 50px;
+}
+body .info > .solid {
+  width: 620px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  margin-top: 20px;
+  margin-right: 50px;
 }

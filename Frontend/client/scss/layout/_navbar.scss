@@ -1,8 +1,23 @@
 .navbar {
+    position: relative;
+
+    @include for-size(mobile) {
+        justify-content: space-between;
+    }
+
+    .fa-bars {
+        display: none;
+
+        @include for-size(mobile) {
+            display: initial;
+            padding-left: 20px;
+        }
+    }
+
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-top: 10px;
 
@@ -11,6 +26,21 @@
         align-items: center;
         column-gap: 30px;
         padding-left: 15px;
+
+        ul {
+            display: none;
+        }
+
+        @include for-size(tablet) {
+
+            >p {
+                padding-right: 20px;
+
+                @include for-size(mobile) {
+                    display: none;
+                }
+            }
+        }
     }
 
     .navbar-middle {
@@ -21,6 +51,10 @@
         border: 1px solid black;
         border-radius: 30px;
         gap: 20px;
+
+        @include for-size(mobile) {
+            display: none;
+        }
 
         >i {
             padding-left: 20px;
@@ -34,6 +68,28 @@
         gap: 20px;
         padding-right: 30px;
 
+        .fa-magnifying-glass {
+            display: none;
+
+            @include for-size(mobile) {
+                display: initial;
+            }
+        }
+
+        @include for-size(tablet) {
+
+            >p {
+                padding-left: 40px;
+            }
+        }
+
+        @include for-size(mobile) {
+            
+            >p {
+                display: none;
+            }
+        }
+
         .login {
             width: 80px;
             height: 35px;
@@ -41,6 +97,10 @@
             align-items: center;
             justify-content: center;
             border: 1px solid black;
+
+            @include for-size(mobile) {
+                display: none;
+            }
         }
 
         .signup {
@@ -51,6 +111,10 @@
             justify-content: center;
             border: 1px solid black;
             background-color: rgba(0, 0, 0, 0.825);
+
+            @include for-size(mobile) {
+                display: none;
+            }
 
             >p {
                 color: white;

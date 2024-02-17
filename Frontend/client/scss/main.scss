@@ -1,6 +1,8 @@
 @import "./utils/variables";
 @import "./utils/mixins";
-@import "./components/card";
 @import "./layout/navbar";
+@import "./layout/footer";
+
 @import "./pages/home-page";
+@import "./pages/courses-page";
 @import "./pages/signup-page";
