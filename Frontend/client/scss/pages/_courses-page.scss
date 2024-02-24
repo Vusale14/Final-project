@@ -6,358 +6,416 @@
 
 body {
 
-    .title {
-        @include container;
-        line-height: 40px;
+  .title {
+   @include container;
+   line-height: 40px;
+   font-family: "Poppins";
 
-        h1 {
-            padding-top: 60px;
-        }
+   h1 {
+     font-weight: 500;
+     padding-top: 60px;
+   }
 
-        .learners {
-            display: flex;
-            gap: 10px;
+   >h2 {
+     font-weight: 500;
+   }
 
-            >.fa-user {
-                padding-top: 10px;
-            }
-        }
+   >h3 {
+     font-weight: 500;
+   }
 
-        h2 {
-            padding-top: 40px;
-        }
-    }
+   .learners {
+       display: flex;
+       gap: 10px;
 
-    .card-container {
-        @include container;
-        display: grid;
-        grid-template-columns: repeat(5, 2fr);
-        gap: 20px;
+       >.fa-user {
+           padding-top: 10px;
+       }
+   }
 
-        .courses-card {
+   h2 {
+       padding-top: 40px;
+   }
+   }
 
-          .top {
-            padding-top: 20px;
-      
-            >img {
-              width: 230px;
-              height: 150px;
-            }
-          }
-      
-          .bottom {
-            padding-top: 10px;
-      
-            >p {
-              padding-top: 5px;
-            }
-      
-            .rating {
-              display: flex;
-              gap: 10px;
-              padding-top: 10px;
-      
-              .star {
-                display: flex;
-                gap: 0;
-              }
-            }
-      
-            .price {
-              display: flex;
-              gap: 10px;
-              padding-top: 10px;
-            }
-          }
-        }
-    }
-    
-    .second {
-      padding-top: 20px
-    }
+   .card-container {
+     @include container;
+     display: grid;
+     grid-template-columns: repeat(5, 2fr);
+     gap: 20px;
 
-    .all-courses {
-      @include container;
-      padding-top: 60px;
-      padding-bottom: 40px;
+     .courses-card {
 
-      p {
-        padding-top: 20px;
-      }
-
-      .small-table {
-        display: flex;
-        gap: 20px;
-        width: 1250px;
-        height: 70px;
-        border: 1px solid rgba(0, 0, 0, 0.26);
-        margin-top: 20px;
-        padding-top: 18px;
-        padding-left: 20px;
-        margin-bottom: 40px;
-
-        >h3 {
-          padding-top: 5px;
-        }
-
-        .circle {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 30px;
-          height: 30px;
-          background-color: rgba(0, 0, 0, 0.825);
-          border-radius: 50%;
-
-          >i {
-            color: white;
-          }
-        }
-      }
-
-      >.card-container {
-        display: table-row;
-        padding-top: 20px;
-
-        >.courses-card {
-          display: flex;
-          gap: 20px;
-          width: 1250px;
-
-          >.top {
-
-            img {
-              width: 400px;
-              height: 200px;
-            }
-          }
-
-          >.bottom {
-            padding-top: 20px;
-            line-height: 20px;
-
-            >.rating {
-
-              h4 {
-                padding-top: 7px;
-              }
-              
-              p {
-                padding-top: 5px;
-              }
-
-              .star {
-                padding-top: 8px;
-              }
-            }
-
-            .mini-info {
-              display: flex;
-              gap: 10px;
-            }
-          }
-
-          >.price {
-            padding-top: 45px;
-            padding-left: 20px;
-          }
-        }
-
-        .seven {
-
-          .price {
-            padding-left: 50px;
+         .top {
+           padding-top: 20px;
+     
+           >img {
+             width: 230px;
+             height: 150px;
+           }
          }
-        }
+     
+         .bottom {
+           padding-top: 10px;
 
-        .eight {
-
-          .price {
-            padding-left: 80px;
+           >a {
+             text-decoration: none;
+             color: black;
+           }
+     
+           >p {
+             padding-top: 5px;
+           }
+     
+           .rating {
+             display: flex;
+             gap: 10px;
+             padding-top: 10px;
+     
+             .star {
+               display: flex;
+               gap: 0;
+             }
+           }
+     
+           .price {
+             display: flex;
+             gap: 10px;
+             padding-top: 10px;
+           }
          }
-        }
+     }
+   }
+   
+   .second {
+     padding-top: 20px
+   }
 
-        .fifteen {
+   .all-courses {
+     @include container;
+     padding-top: 60px;
+     padding-bottom: 40px;
 
-          .price {
-            padding-left: 60px;
+     >h2 {
+       font-family: "Work Sans";
+     }
+
+     #see {
+       padding-top: 20px;
+       font-family: "Work Sans";
+       line-height: 30px;
+       font-size: 120%;
+     }
+
+     .small-table {
+       display: flex;
+       gap: 20px;
+       width: 1250px;
+       height: 70px;
+       border: 1px solid rgba(0, 0, 0, 0.26);
+       margin-top: 20px;
+       padding-top: 18px;
+       padding-left: 20px;
+       margin-bottom: 40px;
+
+       >h3 {
+         font-family: "Work Sans";
+         padding-top: 5px;
+       }
+
+       .circle {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 30px;
+         height: 30px;
+         background-color: rgba(0, 0, 0, 0.825);
+         border-radius: 50%;
+
+         >i {
+           color: white;
          }
+       }
+     }
+
+     >.card-container {
+       display: table-row;
+       padding-top: 20px;
+       font-family: "Work Sans";
+
+       >.courses-card {
+         display: flex;
+         gap: 20px;
+         width: 1250px;
+
+         >.top {
+
+           img {
+             width: 400px;
+             height: 200px;
+           }
+         }
+
+         >.bottom {
+           padding-top: 20px;
+           line-height: 20px;
+
+           >p {
+             line-height: 25px;
+             font-size: 110%;
+           }
+
+           >.rating {
+
+             h4 {
+               padding-top: 7px;
+             }
+             
+             p {
+               padding-top: 5px;
+             }
+
+             .star {
+               padding-top: 8px;
+             }
+           }
+
+           .mini-info {
+             display: flex;
+             gap: 10px;
+             padding-top: 15px;
+           }
+         }
+
+         >.price {
+           padding-top: 45px;
+           padding-left: 20px;
+         }
+       }
+
+       .seven {
+
+         .price {
+           padding-left: 50px;
         }
+       }
 
-        .card {
+       .eight {
 
-          .price {
-            padding-left: 70px;
-          }
+         .price {
+           padding-left: 80px;
         }
+       }
 
-        .cart {
+       .fifteen {
 
-          .price {
-            padding-left: 250px;
-          }
+         .price {
+           padding-left: 60px;
         }
+       }
 
-        .six-card {
+       .card {
 
-          .price {
-            padding-left: 110px;
-          }
-        }
+         .price {
+           padding-left: 70px;
+         }
+       }
 
-        .eight-card {
+       .cart {
 
-          .price {
-            padding-left: 350px;
-          }
-        }
+         .price {
+           padding-left: 250px;
+         }
+       }
 
-        .ten-card {
+       .six-card {
 
-          .price {
-            padding-left: 150px;
-          }
-        }
+         .price {
+           padding-left: 110px;
+         }
+       }
 
-        .fourteen-card {
+       .eight-card {
 
-          .price {
-            padding-left: 270px;
-          }
-        }
+         .price {
+           padding-left: 350px;
+         }
+       }
 
-        .fifteen-card {
+       .ten-card {
 
-          .price {
-            padding-left: 130px;
-          }
-        }
+         .price {
+           padding-left: 150px;
+         }
+       }
 
-        .nine-card {
+       .fourteen-card {
 
-          .price {
-            padding-left: 50px;
-          }
-        }
+         .price {
+           padding-left: 270px;
+         }
+       }
 
-        .ten-cart {
+       .fifteen-card {
 
-          .price {
-            padding-left: 50px;
-          }
-        }
+         .price {
+           padding-left: 130px;
+         }
+       }
 
-        .thirteen-card {
+       .nine-card {
 
-          .price {
-            padding-left: 180px;
-          }
-        }
+         .price {
+           padding-left: 50px;
+         }
+       }
 
-        .three-card {
+       .ten-cart {
 
-          .price {
-            padding-left: 70px;
-          }
-        }
+         .price {
+           padding-left: 50px;
+         }
+       }
 
-        .six-cart {
+       .thirteen-card {
 
-          .price {
-            padding-left: 90px;
-          }
-        }
+         .price {
+           padding-left: 180px;
+         }
+       }
 
-        .seven-cart {
+       .three-card {
 
-          .price {
-            padding-left: 80px;
-          }
-        }
+         .price {
+           padding-left: 70px;
+         }
+       }
 
-        .eight-cart {
+       .six-cart {
 
-          .price {
-            padding-left: 70px;
-          }
-        }
+         .price {
+           padding-left: 90px;
+         }
+       }
 
-        .twelve-card {
+       .seven-cart {
 
-          .price {
-            padding-left: 400px;
-          }
-        }
+         .price {
+           padding-left: 80px;
+         }
+       }
 
-        .thirteen-cart {
+       .eight-cart {
 
-          .price {
-            padding-left: 290px;
-          }
-        }
+         .price {
+           padding-left: 70px;
+         }
+       }
 
-        .card-ten {
+       .twelve-card {
 
-          .price {
-            padding-left: 150px;
-          }
-        }
+         .price {
+           padding-left: 400px;
+         }
+       }
 
-        .card-twelve {
+       .thirteen-cart {
 
-          .price {
-            padding-left: 210px;
-          }
-        }
+         .price {
+           padding-left: 290px;
+         }
+       }
 
-        .card-thirteen {
+       .card-ten {
 
-          .price {
-            padding-left: 250px;
-          }
-        }
+         .price {
+           padding-left: 150px;
+         }
+       }
 
-        .card-fifteen {
+       .card-twelve {
 
-          .price {
-            padding-left: 50px;
-          }
-        }
-      }
+         .price {
+           padding-left: 210px;
+         }
+       }
 
-      .solid {
-        width: 1260px;
-        border: 1px solid rgba(0, 0, 0, 0.226);
-        margin-top: 15px;
-      }
-    }
+       .card-thirteen {
 
-    .solid {
-      @include container;
-      width: 1260px;
-      border: 1px solid rgba(0, 0, 0, 0.209);
-      margin-bottom: 40px;
-    }
+         .price {
+           padding-left: 250px;
+         }
+       }
 
-    .info {
-      @include container;
-      width: 650px;
-      height: 500px;
-      padding-left: 20px;
-      
-      >p {
-        padding-top: 20px;
-      }
+       .card-fifteen {
 
-      >h2 {
-        padding-top: 50px;
-      }
+         .price {
+           padding-left: 50px;
+         }
+       }
 
-      >.solid {
-        width: 620px;
-        border: 1px solid rgba(0, 0, 0, 0.199);
-        margin-top: 20px;
-        margin-right: 50px;
-      }
-    }
+       .card-four {
+
+         .price {
+           padding-left: 250px;
+         }
+       }
+
+       .next-twelve {
+
+         .price {
+           padding-left: 230px;
+         }
+       }
+
+       .next-fourteen {
+
+         .price {
+           padding-left: 30px;
+         }
+       }
+
+       .next-fifteen {
+
+         .price {
+           padding-left: 290px;
+         }
+       }
+     }
+
+     .solid {
+       width: 1260px;
+       border: 1px solid rgba(0, 0, 0, 0.226);
+       margin-top: 15px;
+     }
+   }
+
+   .solid {
+     @include container;
+     width: 1260px;
+     border: 1px solid rgba(0, 0, 0, 0.209);
+     margin-bottom: 40px;
+   }
+
+   .info {
+     @include container;
+     width: 650px;
+     height: 500px;
+     padding-left: 20px;
+     
+     >p {
+       padding-top: 20px;
+     }
+
+     >h2 {
+       padding-top: 50px;
+     }
+
+     >.solid {
+       width: 620px;
+       border: 1px solid rgba(0, 0, 0, 0.199);
+       margin-top: 20px;
+       margin-right: 50px;
+     }
+   }
 }
