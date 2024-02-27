@@ -132,6 +132,16 @@ table {
   text-decoration: none;
   color: black;
 }
+@media screen and (max-width: 1250px) {
+  .navbar .navbar-right a {
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 835px) {
+  .navbar .navbar-right a {
+    display: none;
+  }
+}
 .navbar .navbar-right .fa-magnifying-glass {
   display: none;
 }
@@ -381,6 +391,7 @@ body .main .courses-table {
 @media screen and (max-width: 1250px) {
   body .main .courses-table {
     width: 850px;
+    height: 600px;
   }
 }
 @media screen and (max-width: 835px) {
@@ -741,12 +752,13 @@ body .topic .category-topic {
 }
 @media screen and (max-width: 1250px) {
   body .topic .category-topic {
-    gap: 80px;
+    gap: 70px;
   }
 }
 @media screen and (max-width: 835px) {
   body .topic .category-topic {
-    gap: 50px;
+    gap: 40px;
+    font-size: 90%;
   }
 }
 body .topic .category-topic .category-topic-name {
@@ -863,6 +875,12 @@ body .card-container {
     width: 690px;
   }
 }
+@media screen and (max-width: 1250px) {
+  body .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 body .card-container .courses-card .top {
   padding-top: 20px;
 }
@@ -894,8 +912,18 @@ body .card-container .courses-card .bottom .price {
   gap: 10px;
   padding-top: 10px;
 }
+@media screen and (max-width: 1250px) {
+  body .card-container .tablet {
+    display: none;
+  }
+}
 body .second {
   padding-top: 20px;
+}
+@media screen and (max-width: 1250px) {
+  body .second .tablet {
+    display: none;
+  }
 }
 body .all-courses {
   width: 1250px;
@@ -1153,8 +1181,18 @@ body form {
     width: 690px;
   }
 }
+@media screen and (max-width: 1250px) {
+  body form {
+    width: 600px;
+  }
+}
 body form > h2 {
   padding-left: 70px;
+}
+@media screen and (max-width: 1250px) {
+  body form > h2 {
+    font-size: 120%;
+  }
 }
 body form > p {
   padding-top: 15px;
@@ -1173,20 +1211,41 @@ body form .input-control input {
   border: 1px solid black;
   outline: none;
 }
+@media screen and (max-width: 1250px) {
+  body form .input-control input {
+    width: 300px;
+  }
+}
 body form .input-control p {
   visibility: hidden;
 }
 body form .input-control.success input {
-  width: 336px;
-  height: 52px;
-  border-radius: 20px;
-  border: 2px solid green;
+  width: 340px;
+  height: 60px;
+  align-items: center;
+  padding-left: 15px;
+  border: 1px solid green;
+  outline: none;
+  border-radius: 0;
+}
+@media screen and (max-width: 1250px) {
+  body form .input-control.success input {
+    width: 300px;
+  }
 }
 body form .input-control.error input {
-  width: 336px;
-  height: 52px;
-  border-radius: 20px;
-  border: 2px solid red;
+  width: 340px;
+  height: 60px;
+  align-items: center;
+  padding-left: 15px;
+  border: 1px solid red;
+  outline: none;
+  border-radius: 0;
+}
+@media screen and (max-width: 1250px) {
+  body form .input-control.error input {
+    width: 300px;
+  }
 }
 body form button {
   display: flex;
@@ -1197,6 +1256,11 @@ body form button {
   border: 1px solid purple;
   background-color: #a435f0;
   outline: none;
+}
+@media screen and (max-width: 1250px) {
+  body form button {
+    width: 300px;
+  }
 }
 body form button > h3 {
   color: white;
@@ -1232,10 +1296,20 @@ body .two {
     width: 690px;
   }
 }
+@media screen and (max-width: 1250px) {
+  body .two {
+    width: 600px;
+  }
+}
 body .two > h2 {
   padding-left: 12px;
   padding-bottom: 20px;
   font-size: 130%;
+}
+@media screen and (max-width: 1250px) {
+  body .two > h2 {
+    font-size: 120%;
+  }
 }
 body .two .input-control {
   display: flex;
@@ -1249,20 +1323,41 @@ body .two .input-control input {
   border: 1px solid black;
   outline: none;
 }
+@media screen and (max-width: 1250px) {
+  body .two .input-control input {
+    width: 300px;
+  }
+}
 body .two .input-control p {
   visibility: hidden;
 }
 body .two .input-control.success input {
-  width: 336px;
-  height: 52px;
-  border-radius: 20px;
-  border: 2px solid green;
+  width: 340px;
+  height: 60px;
+  align-items: center;
+  padding-left: 15px;
+  border: 1px solid green;
+  outline: none;
+  border-radius: 0;
+}
+@media screen and (max-width: 1250px) {
+  body .two .input-control.success input {
+    width: 300px;
+  }
 }
 body .two .input-control.error input {
-  width: 336px;
-  height: 52px;
-  border-radius: 20px;
-  border: 2px solid red;
+  width: 340px;
+  height: 60px;
+  align-items: center;
+  padding-left: 15px;
+  border: 1px solid red;
+  outline: none;
+  border-radius: 0;
+}
+@media screen and (max-width: 1250px) {
+  body .two .input-control.error input {
+    width: 300px;
+  }
 }
 body .two button {
   display: flex;
@@ -1273,6 +1368,11 @@ body .two button {
   border: 1px solid purple;
   background-color: #a435f0;
   outline: none;
+}
+@media screen and (max-width: 1250px) {
+  body .two button {
+    width: 300px;
+  }
 }
 body .two button > h3 {
   color: white;
@@ -1298,6 +1398,12 @@ body .black .left {
   width: 900px;
   padding-left: 200px;
   padding-top: 80px;
+}
+@media screen and (max-width: 1250px) {
+  body .black .left {
+    width: 700px;
+    padding-right: 10px;
+  }
 }
 body .black .left > h1 {
   color: white;
@@ -1343,13 +1449,36 @@ body .main-field .left-side {
   padding-top: 50px;
   font-family: "Work Sans";
 }
+@media screen and (max-width: 1250px) {
+  body .main-field .left-side {
+    width: 500px;
+    height: 660px;
+    margin-left: 16px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .main-field .left-side {
+    width: 450px;
+    margin-left: -5px;
+  }
+}
 body .main-field .left-side > h1 {
   font-weight: 600;
   padding-bottom: 20px;
 }
+@media screen and (max-width: 1250px) {
+  body .main-field .left-side > h1 {
+    font-size: 120%;
+  }
+}
 body .main-field .left-side .option {
   display: flex;
   gap: 80px;
+}
+@media screen and (max-width: 1250px) {
+  body .main-field .left-side .option {
+    gap: 50px;
+  }
 }
 body .main-field .left-side .option .left {
   width: 300px;
@@ -1357,10 +1486,20 @@ body .main-field .left-side .option .left {
 body .main-field .left-side .option .right {
   width: 300px;
 }
+@media screen and (max-width: 1250px) {
+  body .main-field .left-side .option .right {
+    padding-right: 30px;
+  }
+}
 body .main-field .left-side .option p {
   font-size: large;
   padding-top: 20px;
   line-height: 20px;
+}
+@media screen and (max-width: 1250px) {
+  body .main-field .left-side .option p {
+    font-size: 90%;
+  }
 }
 body .main-field .right-side {
   width: 300px;
@@ -1368,8 +1507,31 @@ body .main-field .right-side {
   border: 1px solid black;
   font-family: "Work Sans";
 }
+@media screen and (max-width: 1250px) {
+  body .main-field .right-side {
+    width: 250px;
+    height: 660px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .main-field .right-side {
+    width: 200px;
+  }
+}
 body .main-field .right-side video {
   margin-top: -26px;
+}
+@media screen and (max-width: 1250px) {
+  body .main-field .right-side video {
+    width: 250px;
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .main-field .right-side video {
+    width: 200px;
+    margin-top: -55px;
+  }
 }
 body .main-field .right-side > h1 {
   padding-left: 20px;
@@ -1383,12 +1545,33 @@ body .main-field .right-side button {
   padding-bottom: 20px;
   padding-right: 20px;
 }
+@media screen and (max-width: 1250px) {
+  body .main-field .right-side button {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .main-field .right-side button {
+    width: 150px;
+  }
+}
 body .main-field .right-side button > h3 {
   color: white;
 }
 body .main-field .right-side p {
   padding-left: 30px;
   padding-top: 10px;
+}
+@media screen and (max-width: 1250px) {
+  body .main-field .right-side p {
+    font-size: 90%;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .main-field .right-side p {
+    line-height: 15px;
+  }
 }
 body .main-field .right-side h3 {
   padding-top: 20px;
@@ -1414,6 +1597,16 @@ body .table {
 @media screen and (max-width: 835px) {
   body .table {
     width: 690px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  body .table {
+    height: 3850px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .table {
+    height: 4320px;
   }
 }
 body .table .requirements {
@@ -1554,37 +1747,96 @@ body .table .who ul > li {
   line-height: 30px;
   font-size: 120%;
 }
-body .teacher {
-  width: 100%;
-  height: 750px;
-  border: 1px solid rgba(128, 128, 128, 0.147);
-  background-color: rgba(0, 0, 0, 0.298);
-  color: white;
-  padding-top: 20px;
-  margin-top: 50px;
-}
-body .teacher .about-teacher {
+body .user-comment {
   width: 1250px;
   margin: auto;
-  line-height: 40px;
-  font-family: "Work Sans";
-  width: 1150px;
+  margin-top: 50px;
 }
 @media screen and (max-width: 1250px) {
-  body .teacher .about-teacher {
+  body .user-comment {
     width: 835px;
   }
 }
 @media screen and (max-width: 835px) {
-  body .teacher .about-teacher {
+  body .user-comment {
     width: 690px;
   }
 }
-body .teacher .about-teacher > li {
-  font-size: 120%;
+body .user-comment .star {
+  margin-top: 20px;
 }
-body .teacher .about-teacher > p {
-  font-size: 120%;
+body .user-comment .star > .fa-star {
+  width: 30px;
+  color: rgb(246, 188, 62);
+}
+body .user-comment .your-review {
+  margin-top: 20px;
+}
+body .user-comment .your-review input {
+  width: 1250px;
+  height: 150px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+}
+@media screen and (max-width: 1250px) {
+  body .user-comment .your-review input {
+    width: 830px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .user-comment .your-review input {
+    width: 690px;
+  }
+}
+body .user-comment .user-info {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+body .user-comment .user-info .enter-name input {
+  padding-left: 10px;
+  width: 600px;
+  height: 50px;
+}
+@media screen and (max-width: 1250px) {
+  body .user-comment .user-info .enter-name input {
+    width: 390px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .user-comment .user-info .enter-name input {
+    width: 320px;
+  }
+}
+body .user-comment .user-info .enter-email input {
+  padding-left: 10px;
+  width: 600px;
+  height: 50px;
+}
+@media screen and (max-width: 1250px) {
+  body .user-comment .user-info .enter-email input {
+    width: 390px;
+  }
+}
+@media screen and (max-width: 835px) {
+  body .user-comment .user-info .enter-email input {
+    width: 320px;
+  }
+}
+body .user-comment .submit-review {
+  background-color: rgb(255, 50, 77);
+  border: 1px solid rgb(255, 50, 77);
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+body .user-comment .submit-review p {
+  color: white;
+}
+body .user-comment .submit-review:hover {
+  background-color: rgba(255, 50, 77, 0.788);
 }
 body .footer-for-detail {
   margin-top: 0;

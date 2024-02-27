@@ -44,6 +44,11 @@ body {
      grid-template-columns: repeat(5, 2fr);
      gap: 20px;
 
+     @include for-size(tablet) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
      .courses-card {
 
          .top {
@@ -85,10 +90,24 @@ body {
            }
          }
      }
+
+     .tablet {
+
+      @include for-size(tablet) {
+        display: none;
+      }
+     }
    }
    
    .second {
-     padding-top: 20px
+     padding-top: 20px;
+
+     .tablet {
+
+      @include for-size(tablet) {
+        display: none;
+      }
+     }
    }
 
    .all-courses {

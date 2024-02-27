@@ -121,6 +121,7 @@
   
           @include for-size(tablet) {
             width: 850px;
+            height: 600px;
           }
   
           @include for-size(mobile) {
@@ -508,11 +509,12 @@
           padding-top: 30px;
   
           @include for-size(tablet) {
-            gap: 80px;
+            gap: 70px;
           }
   
           @include for-size(mobile) {
-            gap: 50px;
+            gap: 40px;
+            font-size: 90%;
           }
   
           .category-topic-name {

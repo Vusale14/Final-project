@@ -20,10 +20,18 @@ body {
         padding-top: 100px;
         font-family: "Work Sans";
 
+        @include for-size(tablet) {
+            width: 600px;
+        }
+
         >h2 {
             padding-left: 12px;
             padding-bottom: 20px;
             font-size: 130%;
+
+            @include for-size(tablet) {
+                font-size: 120%;
+            }
         }
 
         .input-control {
@@ -37,6 +45,10 @@ body {
                 padding-left: 15px;
                 border: 1px solid black;
                 outline: none;
+
+                @include for-size(tablet) {
+                    width: 300px;
+                }
             }
 
             p {
@@ -47,20 +59,34 @@ body {
         .input-control.success {
     
             input {
-                width: 336px;
-                height: 52px;
-                border-radius: 20px;
-                border: 2px solid green; 
+                width: 340px;
+                height: 60px;
+                align-items: center;
+                padding-left: 15px;
+                border: 1px solid green;
+                outline: none;
+                border-radius: 0;
+
+                @include for-size(tablet) {
+                    width: 300px;
+                }
             }       
         }
 
         .input-control.error {
 
             input {
-                width: 336px;
-                height: 52px;
-                border-radius: 20px;
-                border: 2px solid red;    
+                width: 340px;
+                height: 60px;
+                align-items: center;
+                padding-left: 15px;
+                border: 1px solid red;
+                outline: none;
+                border-radius: 0;
+                
+                @include for-size(tablet) {
+                    width: 300px;
+                }
             }
         }
 
@@ -73,6 +99,10 @@ body {
             border: 1px solid purple;
             background-color: #a435f0;
             outline: none;
+
+            @include for-size(tablet) {
+                width: 300px;
+            }
 
             >h3 {
                 color: white;

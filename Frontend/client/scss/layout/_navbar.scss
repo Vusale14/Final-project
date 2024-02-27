@@ -82,6 +82,20 @@
             color: black;
         }
 
+        @include for-size(tablet) {
+
+            a {
+                padding-left: 20px;
+            }
+        }
+
+        @include for-size(mobile) {
+
+            a {
+                display: none;
+            }
+        }
+
         .fa-magnifying-glass {
             display: none;
 
