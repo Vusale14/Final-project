@@ -2061,3 +2061,102 @@ body .coment .article-second > p {
 body .supporter {
   margin-top: 80px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .main-cart {
+  font-family: "Work Sans";
+}
+body .main-cart > h1 {
+  padding-left: 120px;
+  font-size: 250%;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.815);
+  padding-bottom: 40px;
+}
+body .main-cart .solid {
+  width: 900px;
+  margin-left: 110px;
+}
+body .main-cart .main-cart-section {
+  display: flex;
+}
+body .main-cart .main-cart-section .course-field {
+  display: flex;
+  padding-left: 110px;
+}
+body .main-cart .main-cart-section .course-field > img {
+  width: 150px;
+  height: 120px;
+}
+body .main-cart .main-cart-section .course-field .course-info-field {
+  width: 400px;
+  padding-left: 30px;
+}
+body .main-cart .main-cart-section .course-field .course-info-field > h4 {
+  line-height: 20px;
+}
+body .main-cart .main-cart-section .course-field .course-info-field > p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body .main-cart .main-cart-section .course-field .course-info-field .rating {
+  display: flex;
+  gap: 10px;
+}
+body .main-cart .main-cart-section .course-field .course-info-field .mini-info {
+  display: flex;
+  padding-top: 10px;
+}
+body .main-cart .main-cart-section .course-field > .price {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+body .main-cart .main-cart-section .course-field > .fa-trash {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+body .main-cart .main-cart-section .right-cart-field {
+  padding-left: 250px;
+  margin-top: -40px;
+  font-family: "Work Sans";
+}
+body .main-cart .main-cart-section .right-cart-field > h2 {
+  color: rgb(96, 95, 95);
+  padding-bottom: 15px;
+}
+body .main-cart .main-cart-section .right-cart-field > h1 {
+  color: rgba(0, 0, 0, 0.825);
+}
+body .main-cart .main-cart-section .right-cart-field > del {
+  font-size: 120%;
+}
+body .main-cart .main-cart-section .right-cart-field > p {
+  padding-top: 15px;
+  font-size: 120%;
+  color: red;
+}
+body .main-cart .main-cart-section .right-cart-field button {
+  background-color: #a435f0;
+  width: 240px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-top: 18px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+body .main-cart .main-cart-section .right-cart-field button > h3 {
+  color: white;
+}
+body .main-cart .main-cart-section .right-cart-field button:hover {
+  background-color: rgba(165, 53, 240, 0.7764705882);
+}
+body .viewing {
+  padding-top: 80px;
+}
