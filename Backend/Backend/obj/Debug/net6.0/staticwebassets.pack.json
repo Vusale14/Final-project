@@ -1,0 +1,1017 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design-picture.jpg",
+      "PackagePath": "staticwebassets\\assets\\categories\\design-picture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\design-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\design-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\design-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\design-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\design-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\design-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\design-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\design-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\design-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\design-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\design-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\design-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\design-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\design-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\design-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\design-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\design-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\design-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\design-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\design-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture11.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture11.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture12.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture12.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture13.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture13.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture14.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture14.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture15.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture15.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\design\\dsgn-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\design\\dsgn-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development-picture.jpg",
+      "PackagePath": "staticwebassets\\assets\\categories\\development-picture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\development-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\development-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\development-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\development-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\development-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\development-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\development-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\development-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\development-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\development-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\development-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\development-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\development-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\development-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\development-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\development-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\development-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\development-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\development-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\development-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture11.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture11.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture12.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture12.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture13.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture13.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture14.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture14.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture15.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture15.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\development\\dvpm-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\development\\dvpm-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\instructor-picture.jpg",
+      "PackagePath": "staticwebassets\\assets\\categories\\instructor-picture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\it-software.jpg",
+      "PackagePath": "staticwebassets\\assets\\categories\\it-software.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture11.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture11.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture12.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture12.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture13.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture13.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture14.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture14.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture15.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture15.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture16.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture16.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture17.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture17.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture18.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture18.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture19.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture19.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture20.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture20.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture21.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture21.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture22.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture22.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture23.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture23.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture24.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture24.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture25.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture25.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\javascript\\javascript-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\javascript\\javascript-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing-picture.jpg",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing-picture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\marketing-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\marketing-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\marketing-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\marketing-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\marketing-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\marketing-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\marketing-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\marketing-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\marketing-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\marketing-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\marketing-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\marketing-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\marketing-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\marketing-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\marketing-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\marketing-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\marketing-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\marketing-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\marketing-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\marketing-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture11.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture11.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture12.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture12.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture13.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture13.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture14.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture14.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture15.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture15.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\marketing\\mktg-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\marketing\\mktg-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nextjs-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nextjs-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nextjs-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nextjs-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nextjs-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nextjs-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nextjs-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nextjs-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nextjs-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nextjs-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nextjs-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nextjs-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nextjs-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nextjs-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nextjs-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nextjs-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nextjs-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nextjs-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nextjs-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nextjs-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture11.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture11.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture12.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture12.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture13.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture13.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture14.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture14.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture15.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture15.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\next.js\\nxjs-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\next.js\\nxjs-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture11.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture11.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture12.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture12.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture13.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture13.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture14.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture14.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture15.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture15.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture16.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture16.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture17.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture17.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture18.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture18.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture19.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture19.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture20.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture20.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture21.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture21.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture22.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture22.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture23.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture23.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture24.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture24.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture25.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture25.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\photoshop\\photoshop-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\photoshop\\photoshop-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\python-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\python-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\python-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\python-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\python-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\python-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\python-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\python-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\python-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\python-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\python-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\python-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\python-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\python-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\python-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\python-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\python-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\python-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\python-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\python-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture11.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture11.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture12.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture12.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture13.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture13.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture14.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture14.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture15.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture15.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\python\\pytn-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\python\\pytn-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture11.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture11.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture12.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture12.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture13.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture13.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture14.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture14.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture15.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture15.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\sftw-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\sftw-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\software-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\software-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\software-picture10.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\software-picture10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\software-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\software-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\software-picture3.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\software-picture3.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\software-picture4.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\software-picture4.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\software-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\software-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\software-picture6.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\software-picture6.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\software-picture7.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\software-picture7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\software-picture8.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\software-picture8.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\categories\\software\\software-picture9.png",
+      "PackagePath": "staticwebassets\\assets\\categories\\software\\software-picture9.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\angular-picture.jpg",
+      "PackagePath": "staticwebassets\\assets\\courses\\angular-picture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\aws-picture.png",
+      "PackagePath": "staticwebassets\\assets\\courses\\aws-picture.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\frontend-picture.png",
+      "PackagePath": "staticwebassets\\assets\\courses\\frontend-picture.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\html-css.jpg",
+      "PackagePath": "staticwebassets\\assets\\courses\\html-css.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\javascript-picture.jpg",
+      "PackagePath": "staticwebassets\\assets\\courses\\javascript-picture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\micro-frontend.png",
+      "PackagePath": "staticwebassets\\assets\\courses\\micro-frontend.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\python-picture1.png",
+      "PackagePath": "staticwebassets\\assets\\courses\\python-picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\python-picture2.png",
+      "PackagePath": "staticwebassets\\assets\\courses\\python-picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\python-picture3.jpg",
+      "PackagePath": "staticwebassets\\assets\\courses\\python-picture3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\python-picture4.jpg",
+      "PackagePath": "staticwebassets\\assets\\courses\\python-picture4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\python-picture5.png",
+      "PackagePath": "staticwebassets\\assets\\courses\\python-picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\react-picture.png",
+      "PackagePath": "staticwebassets\\assets\\courses\\react-picture.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\courses\\web-development.jpg",
+      "PackagePath": "staticwebassets\\assets\\courses\\web-development.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\instroctur-picture.png",
+      "PackagePath": "staticwebassets\\assets\\instroctur-picture.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\slider\\slider-picture1.jpg",
+      "PackagePath": "staticwebassets\\assets\\slider\\slider-picture1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\slider\\slider-picture2.jpg",
+      "PackagePath": "staticwebassets\\assets\\slider\\slider-picture2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\slider\\slider-picture3.jpg",
+      "PackagePath": "staticwebassets\\assets\\slider\\slider-picture3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\slider\\slider-picture4.jpg",
+      "PackagePath": "staticwebassets\\assets\\slider\\slider-picture4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\supporter\\att-logo.png",
+      "PackagePath": "staticwebassets\\assets\\supporter\\att-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\supporter\\cisko-logo.png",
+      "PackagePath": "staticwebassets\\assets\\supporter\\cisko-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\supporter\\hp-logo.png",
+      "PackagePath": "staticwebassets\\assets\\supporter\\hp-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\supporter\\pg-logo.png",
+      "PackagePath": "staticwebassets\\assets\\supporter\\pg-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\supporter\\samsung-logo.png",
+      "PackagePath": "staticwebassets\\assets\\supporter\\samsung-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\supporter\\w-logo.png",
+      "PackagePath": "staticwebassets\\assets\\supporter\\w-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\video\\about-development.mp4",
+      "PackagePath": "staticwebassets\\assets\\video\\about-development.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\video\\about-javascript.mp4",
+      "PackagePath": "staticwebassets\\assets\\video\\about-javascript.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\video\\about-nextjs.mp4",
+      "PackagePath": "staticwebassets\\assets\\video\\about-nextjs.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\video\\about-python.mp4",
+      "PackagePath": "staticwebassets\\assets\\video\\about-python.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\assets\\video\\udemy-story.mp4",
+      "PackagePath": "staticwebassets\\assets\\video\\udemy-story.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\base\\_reset.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\layout\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\main.css",
+      "PackagePath": "staticwebassets\\scss\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\scss\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\pages\\_about-page.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_about-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\pages\\_cart-page.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_cart-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\pages\\_courses-page.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_courses-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\pages\\_detail-page.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_detail-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\pages\\_home-page.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_home-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\pages\\_login-page.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_login-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\pages\\_signup-page.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_signup-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\utils\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\utils\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Vusala\\Desktop\\Final project\\Backend\\Backend\\wwwroot\\scss\\utils\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\utils\\_variables.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Backend.props",
+      "PackagePath": "build\\Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Backend.props",
+      "PackagePath": "buildMultiTargeting\\Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Backend.props",
+      "PackagePath": "buildTransitive\\Backend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    .main-cart {
+        font-family: "Work Sans";
+
+        >h1 {
+            padding-left: 120px;
+            font-size: 250%;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.815);
+            padding-bottom: 40px;
+        }
+
+        .solid {
+            width: 900px;
+            margin-left: 110px;
+        }
+
+        .main-cart-section {
+            display: flex;
+
+            .course-field {
+                display: flex;
+                padding-left: 110px;
+    
+                >img {
+                    width: 150px;
+                    height: 120px;
+                }
+    
+                .course-info-field {
+                    width: 400px;
+                    padding-left: 30px;
+    
+                    >h4 {
+                        line-height: 20px;
+                    }
+    
+                    >p {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+    
+                    .rating {
+                        display: flex;
+                        gap: 10px;
+                    }
+    
+                    .mini-info {
+                        display: flex;
+                        padding-top: 10px;
+                    }
+                }
+    
+                >.price {
+                    padding-left: 100px;
+                    padding-top: 20px;
+                }
+    
+                >.fa-trash {
+                    padding-left: 50px;
+                    padding-top: 30px;
+                }
+            }
+    
+            .right-cart-field {
+                padding-left: 250px;
+                margin-top: -40px;
+                font-family: "Work Sans";
+
+                >h2 {
+                    color: rgb(96, 95, 95);
+                    padding-bottom: 15px;
+                }
+
+                >h1 {
+                    color: rgba(0, 0, 0, 0.825);
+                }
+
+                >del {
+                    font-size: 120%;
+                }
+
+                >p {
+                    padding-top: 15px;
+                    font-size: 120%;
+                    color: red;
+                }
+    
+                button {
+                    background-color: #a435f0;
+                    width: 240px;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    padding-bottom: 20px;
+                    padding-right: 20px;
+                    padding-top: 18px;
+                    margin-left: -10px;
+                    cursor: pointer;
+        
+                    >h3 {
+                        color: white;
+                    }
+                }
+
+                button:hover {
+                    background-color: #a535f0c6;
+                }
+            }
+        }
+    }
+
+    .viewing {
+        padding-top: 80px;
+    }
+}

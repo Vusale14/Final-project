@@ -1,0 +1,19 @@
+﻿@model LoginVM
+@{
+    ViewData["Title"] = "Login page";
+}
+<form method="post" id="form" class="two" action="/">
+    <div asp-validation-summary="All" class="alert alert-danger"></div>
+    <h2>Log in to your Udemy account</h2>
+    <div class="input-control">
+        <input class="form-control" placeholder="Enter your Username" asp-for="Username">
+        <p>Something went wrong. Please try again</p>
+    </div>
+    <div class="input-control">
+        <input class="form-control" placeholder="Enter your Password" asp-for="Password">
+        <p>Something went wrong. Please try again</p>
+    </div>
+    <button type="submit" class="btn" id="btn">
+        <h3>Log In</h3>
+    </button>
+</form>

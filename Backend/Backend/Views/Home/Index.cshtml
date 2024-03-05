@@ -1,0 +1,463 @@
+﻿@model HomeVM
+@{
+    ViewData["Title"] = "Home page";
+}
+<div class="slider">
+    <div class="container">
+        <img src="~/../../assets/slider/slider-picture1.jpg" alt="">
+        <img src="~/../../assets/slider/slider-picture2.jpg" alt="">
+        <img src="~/../../assets/slider/slider-picture3.jpg" alt="">
+        <img src="~/../../assets/slider/slider-picture4.jpg" alt="">
+    </div>
+</div>
+<div class="supporter">
+    <div class="top">
+        <p>Trusted by over 15,000 companies and millions of learners around the world</p>
+    </div>
+    <div class="down">
+        @foreach(Supporter supporter in Model.Supporters)
+        {
+            <img src="~/../../assets/supporter/@supporter.Image" alt="">
+        }
+    </div>
+</div>
+<div class="main">
+    <h1>A broad selection of courses</h1>
+    <p>Choose from over 210,000 online video courses with new additions published every month</p>
+    <div class="courses-name">
+        <h3>Python</h3>
+        <h3>Web Development</h3>
+        <h3>JavaScript</h3>
+        <h3>Amazon AWS</h3>
+        <h3>Drawing</h3>
+    </div>
+    <div class="courses-table">
+        <h2>Expand your career opportunities with Python</h2>
+        <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its <br /> syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll <br /> learn how to build everything from games to sites to apps.</p>
+        <div class="button">
+            <h4>Explore Python</h4>
+        </div>
+        <div class="courses">
+            @foreach(Course course in Model.Courses)
+            {
+                <div class="courses-card">
+                    <div class="top">
+                        <img src="~/../../assets/courses/@course.Image" alt="">
+                    </div>
+                    <div class="bottom">
+                        <a href="../detail-page/index.html"><h3>@course.Name</h3></a>
+                        <p>@course.TeacherName</p>
+                        <div class="rating">
+                            <h4>@course.Rating</h4>
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>(@course.LearnersNumber)</p>
+                        </div>
+                        <div class="price">
+                            <h3>$@course.NewPrice</h3>
+                            <del>$@course.OldPrice</del>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<div class="comment">
+    <h2>How learners like you are achieving their goals</h2>
+    <div class="card-container">
+        <div class="comment-card one">
+            <i class="fa-solid fa-comment"></i>
+            <p>I am proud to say that after a few months of taking this course...<h4>I passed my exam and am now an AWS Certified Cloud Practitioner!</p>
+            <div class="card-middle">
+                <div class="circle">
+                    <h4>WA</h4>
+                </div>
+                <h4>Will A</h4>
+            </div>
+            <div class="solid"></div>
+            <div class="card-bottom">
+                <div class="circle">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</h4>
+            </div>
+        </div>
+        <div class="comment-card two0">
+            <i class="fa-solid fa-comment"></i>
+            <p>This course helped me <h4>freshen up on my product manager skills and land a job at Facebook!</h4>Thanks guys</p>
+            <div class="card-middle">
+                <div class="circle">
+                    <h4>WA</h4>
+                </div>
+                <h4>Will A</h4>
+            </div>
+            <div class="solid"></div>
+            <div class="card-bottom">
+                <div class="circle">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</h4>
+            </div>
+        </div>
+        <div class="comment-card tree">
+            <i class="fa-solid fa-comment"></i>
+            <p>One of the best courses on management and leadership I have come across so far. The advice is practical, and examples highly relatable. <h4>Would help anyone become a better manager.</h4></p>
+            <div class="card-middle">
+                <div class="circle">
+                    <h4>WA</h4>
+                </div>
+                <h4>Will A</h4>
+            </div>
+            <div class="solid"></div>
+            <div class="card-bottom">
+                <div class="circle">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="viewing">
+    <h2>Learners are viewing</h2>
+    <div class="card-container">
+        <div class="courses-card">
+            <div class="top">
+                <img src="~/../../assets/courses/react-picture.png" alt="">
+            </div>
+            <div class="bottom">
+                <a href="../detail-page/index.html"><h3>The Complete 2024 Web Development Bootcamp</h3></a>
+                <p>Dr. Angela Yu</p>
+                <div class="rating">
+                    <h4>4.7</h4>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>(357,195)</p>
+                </div>
+                <div class="price">
+                    <h3>$11.99</h3>
+                    <del>$74.99</del>
+                </div>
+            </div>
+        </div>
+        <div class="courses-card">
+            <div class="top">
+                <img src="~/../../assets/courses/python-picture3.jpg" alt="">
+            </div>
+            <div class="bottom">
+                <a href="../detail-page/index.html"><h3>100 Days of Code: The Complete Python</h3></a>
+                <p>Dr. Angela Yu</p>
+                <div class="rating">
+                    <h4>4.7</h4>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>(273,418)</p>
+                </div>
+                <div class="price">
+                    <h3>$11.99</h3>
+                    <del>$74.99</del>
+                </div>
+            </div>
+        </div>
+        <div class="courses-card">
+            <div class="top">
+                <img src="~/../../assets/courses/python-picture1.png" alt="">
+            </div>
+            <div class="bottom">
+                <a href="../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero</h3></a>
+                <p>Jose Portilla</p>
+                <div class="rating">
+                    <h4>4.6</h4>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>(494,783)</p>
+                </div>
+                <div class="price">
+                    <h3>$11.99</h3>
+                    <del>$74.99</del>
+                </div>
+            </div>
+        </div>
+        <div id="forth" class="courses-card">
+            <div class="top">
+                <img src="~/../../assets/courses/aws-picture.png" alt="">
+            </div>
+            <div class="bottom">
+                <a href="../detail-page/index.html"><h3>[NEW] Ultimate AWS <br /> Certified Cloud Practitioner</h3></a>
+                <p>Stephane Maarek</p>
+                <div class="rating">
+                    <h4>4.7</h4>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>(190,362)</p>
+                </div>
+                <div class="price">
+                    <h3>$11.99</h3>
+                    <del>$74.99</del>
+                </div>
+            </div>
+        </div>
+        <div id="fifth" class="courses-card">
+            <div class="top">
+                <img src="~/../../assets/courses/javascript-picture.jpg" alt="">
+            </div>
+            <div class="bottom">
+                <a href="../detail-page/index.html"><h3>The Complete JavaScript Course 2024 From Zero</h3></a>
+                <p>Jonas Schmedtmann</p>
+                <div class="rating">
+                    <h4>4.7</h4>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>(199,440)</p>
+                </div>
+                <div class="price">
+                    <h3>$11.99</h3>
+                    <del>$74.99</del>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-container second">
+        <div class="courses-card">
+            <div class="top">
+                <img src="~/../../assets/courses/web-development.jpg" alt="">
+            </div>
+            <div class="bottom">
+                <a href="../detail-page/index.html"><h3>Complete Responsive Web Development: 4 courses in 1</h3></a>
+                <p>Creative Online School</p>
+                <div class="rating">
+                    <h4>4.6</h4>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>(2,966)</p>
+                </div>
+                <div class="price">
+                    <h3>$11.99</h3>
+                    <del>$19.99</del>
+                </div>
+            </div>
+        </div>
+        <div class="courses-card">
+            <div class="top">
+                <img src="~/../../assets/courses/html-css.jpg" alt="">
+            </div>
+            <div class="bottom">
+                <a href="../detail-page/index.html"><h3>HTML, CSS, & Bootstrap-Certification Course</h3></a>
+                <p>YouAccel Training</p>
+                <div class="rating">
+                    <h4>4.4</h4>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>(2,564)</p>
+                </div>
+                <div class="price">
+                    <h3>$11.99</h3>
+                    <del>$54.99</del>
+                </div>
+            </div>
+        </div>
+        <div class="courses-card">
+            <div class="top">
+                <img src="~/../../assets/courses/frontend-picture.png" alt="">
+            </div>
+            <div class="bottom">
+                <a href="../detail-page/index.html"><h3>Learn Complete Front-End Web Development Course</h3></a>
+                <p>Fatah Gabrial</p>
+                <div class="rating">
+                    <h4>4.5</h4>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>(3,682)</p>
+                </div>
+                <div class="price">
+                    <h3>$11.99</h3>
+                    <del>$64.99</del>
+                </div>
+            </div>
+        </div>
+        <div id="forth" class="courses-card">
+            <div class="top">
+                <img src="~/../../assets/courses/angular-picture.jpg" alt="">
+            </div>
+            <div class="bottom">
+                <a href="../detail-page/index.html"><h3>The Front-End Web Developer Bootcamp</h3></a>
+                <p>Meta Brains</p>
+                <div class="rating">
+                    <h4>4.3</h4>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>(305)</p>
+                </div>
+                <div class="price">
+                    <h3>$11.99</h3>
+                    <del>$54.99</del>
+                </div>
+            </div>
+        </div>
+        <div id="fifth" class="courses-card">
+            <div class="top">
+                <img src="~/../../assets/courses/micro-frontend.png" alt="">
+            </div>
+            <div class="bottom">
+                <a href="../detail-page/index.html"><h3>Microfrontends with React: A Complete Guide</h3></a>
+                <p>Stephen Grider</p>
+                <div class="rating">
+                    <h4>4.7</h4>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>(7,210)</p>
+                </div>
+                <div class="price">
+                    <h3>$11.99</h3>
+                    <del>$74.99</del>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="category">
+    <h2>Top categories</h2>
+    <div class="category-container">
+        @foreach(Category category in Model.Categories)
+        {
+            <div class="ctgr">
+                <div class="top-categories">
+                    <img src="~/../../assets/categories/@category.Image" alt="">
+                </div>
+                <div class="category-name">
+                    <a href="../categories/design/index.html"><h3>@category.Name</h3></a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<div class="topic">
+    <h2>Featured topics by category</h2>
+    <div class="category-topic">
+        <div class="category-topic-name">
+            <h3>Development</h3>
+            <div class="first">
+                <a href="../categories/development/python/index.html"><h3>Python</h3></a>
+                <p>36,354,994 learners</p>
+            </div>
+            <div class="second">
+                <a href="../categories/development/next.js/index.html"><h3>Next Js</h3></a>
+                <p>11,415,615 learners</p>
+            </div>
+            <div class="third">
+                <a href="../categories/development/javascript/index.html"><h3>JavaScript</h3></a>
+                <p>7,070,015 learners</p>
+            </div>
+        </div>
+        <div class="category-topic-name">
+            <h3>Marketing</h3>
+            <div class="first">
+                <a href="../categories/marketing/digital-marketing/index.html"><h3>Digital Marketing</h3></a>
+                <p>1,195,282 learners</p>
+            </div>
+            <div class="second">
+                <a href="../categories/marketing/smm/index.html"><h3>SMM</h3></a>
+                <p>5,977,561 learners</p>
+            </div>
+            <div class="third">
+                <a href="../categories/marketing/content-marketing/index.html"><h3>Content Marketing</h3></a>
+                <p>1,733,398 learners</p>
+            </div>
+        </div>
+        <div class="category-topic-name">
+            <h3>IT and Software</h3>
+            <div class="first">
+                <a href="../categories/it and software/amazon-aws/index.html"><h3>Amazon AWS</h3></a>
+                <p>6,123,456 learners</p>
+            </div>
+            <div class="second">
+                <a href="../categories/it and software/ethical-hacking/index.html"><h3>Ethical Hacking</h3></a>
+                <p>10,931,066 learners</p>
+            </div>
+            <div class="third">
+                <a href="../categories/it and software/cyber-security/index.html"><h3>Cyber Security</h3></a>
+                <p>3,998,037 learners</p>
+            </div>
+        </div>
+        <div class="category-topic-name">
+            <h3>Design</h3>
+            <div class="first">
+                <a href="../categories/design/photoshop/index.html"><h3>Photoshop</h3></a>
+                <p>10,909,736 learners</p>
+            </div>
+            <div class="second">
+                <a href="../categories/design/graphic-design/index.html"><h3>Graphic Design</h3></a>
+                <p>3,381,052 learners</p>
+            </div>
+            <div class="third">
+                <a href="../categories/design/drawing/index.html"><h3>Drawing</h3></a>
+                <p>2,410,849 learners</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="learn">
+    <div class="left">
+        <img src="~/../../assets/categories/instructor-picture.jpg" alt="">
+    </div>
+    <div class="right">
+        <h2>Start to learn.</h2>
+        <p>Instructors from around the world teach <br /> millions of learners on Udemy. We <br /> provide the skills to learn what you love.</p>
+    </div>
+</div>

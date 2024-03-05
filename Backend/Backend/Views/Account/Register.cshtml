@@ -1,0 +1,36 @@
+﻿@model RegisterVM
+@{
+    ViewData["Title"] = "Register page";
+}
+<form method="post" id="form" action="/">
+    <h2>Create account</h2>
+    <p>Welcome! Enter your details and start learning</p>
+    <div class="input-control">
+        <input asp-for="Username" class="form-control" placeholder="Enter Your Username" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+        <p>Something went wrong. Please try again</p>
+    </div>
+    <div class="input-control">
+        <input asp-for="Email" class="form-control" placeholder="Enter Your Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+        <p>Something went wrong. Please try again</p>
+    </div>
+    <div class="input-control">
+        <input asp-for="Password" class="form-control" placeholder="Enter Your Password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+        <p>Something went wrong. Please try again</p>
+    </div>
+    <div class="input-control">
+        <input asp-for="ConfirmPassword" class="form-control" placeholder="Enter Your ConfirmPassword" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        <p>Something went wrong. Please try again</p>
+    </div>
+    <button type="submit" class="btn" id="btn">
+        <h3>Sign Up</h3>
+    </button>
+</form>
+@section Scripts{
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
+}
