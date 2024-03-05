@@ -266,9 +266,8 @@ body .solid {
 body .slider {
   width: 1250px;
   margin: auto;
-  height: 450px;
-  overflow: hidden;
   margin-top: -20px;
+  position: relative;
 }
 @media screen and (max-width: 1250px) {
   body .slider {
@@ -285,21 +284,77 @@ body .slider {
     width: 100%;
   }
 }
-body .slider .container {
-  display: flex;
-  animation: carusel-swipe 20s infinite;
-  margin-top: 40px;
+body .slider .slide-button {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  border: none;
+  outline: none;
+  background: black;
+  font-size: 2.2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transform: translateY(-50%);
 }
-@keyframes carusel-swipe {
-  25% {
-    transform: translateX(-1500px);
-  }
-  50% {
-    transform: translateX(-2840px);
-  }
-  75% {
-    transform: translateX(-4200px);
-  }
+body .slider .slide-button:hover {
+  background: #444;
+}
+body .slider #prev-slide {
+  left: -20px;
+  display: none;
+}
+body .slider #next-slide {
+  right: -20px;
+}
+body .slider .container {
+  display: grid;
+  font-size: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  grid-template-columns: repeat(4, 1fr);
+}
+body .slider .container .image-item {
+  width: 1250px;
+  height: 400px;
+}
+body .slider .container .container::-webkit-scrollbar {
+  display: none;
+}
+body .slider .slider-scrollbar {
+  margin-top: 20px;
+}
+body .slider .slider-scrollbar .scrollbar-track {
+  height: 2px;
+  width: 100%;
+  background: #ccc;
+  position: relative;
+  border-radius: 4px;
+}
+body .slider .slider-scrollbar .scrollbar-track .scrollbar-thumb {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background: black;
+  border-radius: inherit;
+  cursor: grab;
+}
+body .slider .slider-scrollbar .scrollbar-track .scrollbar-track:active {
+  cursor: grabbing;
+  height: 8px;
+  top: -2px;
+}
+body .slider .slider-scrollbar .scrollbar-track .scrollbar-thumb::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -10px;
+}
+body .slider .slider-scrollbar:hover .scrollbar-track {
+  height: 4px;
 }
 body .supporter {
   height: 250px;

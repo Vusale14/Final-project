@@ -13,29 +13,99 @@
     
       .slider {
         @include container;
-          height: 450px;    
-          overflow: hidden;
+          // height: 450px;    
+          // overflow: hidden;
           margin-top: -20px;
-  
+          position: relative;  
           @include for-size(tablet) {
             width: 100%;
           }
-  
-          .container {
-            display: flex;
-            animation: carusel-swipe 20s infinite;
-            margin-top: 40px;
+
+          .slide-button {
+            position: absolute;
+            top: 50%;
+            height: 50px;
+            width: 50px;
+            color: #fff;
+            border: none;
+            outline: none;
+            background: black;
+            font-size: 2.2rem;
+            cursor: pointer;
+            border-radius: 50%;
+            transform: translateY(-50%);
+          }
+
+          .slide-button:hover {
+            background: #444;
+          }
+
+          #prev-slide {
+            left: -20px;
+            display: none;
+          }
+
+          #next-slide {
+            right: -20px;
           }
   
-          @keyframes carusel-swipe {
-            25% {
-              transform: translateX(-1500px);
+          .container {
+            display: grid;
+            font-size: 0;
+            overflow-x: auto;
+            scrollbar-width: none;
+            grid-template-columns: repeat(4, 1fr);
+
+            .image-item {
+              width: 1250px;
+              height: 400px;
             }
-            50% {
-              transform: translateX(-2840px);
+
+            .container::-webkit-scrollbar {
+              display: none;
             }
-            75% {
-              transform: translateX(-4200px);
+          }
+
+          .slider-scrollbar {
+            margin-top: 20px;
+
+            .scrollbar-track {
+              height: 2px;
+              width: 100%;
+              background: #ccc;
+              position: relative;
+              border-radius: 4px;
+
+              .scrollbar-thumb {
+                position: absolute;
+                height: 100%;
+                width: 50%;
+                background: black;
+                border-radius: inherit;
+                cursor: grab;
+              }
+
+              .scrollbar-track:active {
+                cursor: grabbing;
+                height: 8px;
+                top: -2px;
+              }
+
+              .scrollbar-thumb::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: -10px;
+                bottom: -10px;
+              }
+            }
+          }
+
+          .slider-scrollbar:hover {
+
+            .scrollbar-track {
+              height: 4px;
             }
           }
       }
