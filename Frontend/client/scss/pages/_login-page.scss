@@ -6,11 +6,6 @@
 
 body {
 
-    .solid {
-        width: 100%;
-        margin-top: 15px;
-    }
-
     .two{
         @include container;
         width: 640px;
@@ -19,6 +14,7 @@ body {
         background-color: white;
         padding-top: 100px;
         font-family: "Work Sans";
+        margin-top: 50px;
 
         @include for-size(tablet) {
             width: 600px;
@@ -99,6 +95,7 @@ body {
             border: 1px solid purple;
             background-color: #a435f0;
             outline: none;
+            cursor: pointer;
 
             @include for-size(tablet) {
                 width: 300px;
@@ -107,6 +104,10 @@ body {
             >h3 {
                 color: white;
             }
+        }
+
+        button:hover {
+            background-color: #a535f0ca;
         }
     }
 

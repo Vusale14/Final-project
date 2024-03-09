@@ -54,146 +54,93 @@ table {
 }
 
 .navbar {
-  position: relative;
-  margin-top: 10px;
+  background-color: gray;
+  height: 80px;
   width: 100%;
-  height: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 10px;
+  padding-top: 20px;
 }
-@media screen and (max-width: 835px) {
-  .navbar {
-    justify-content: space-between;
-  }
-}
-.navbar .fa-bars {
-  display: none;
-}
-@media screen and (max-width: 835px) {
-  .navbar .fa-bars {
-    display: initial;
-    padding-left: 20px;
-  }
-}
-.navbar .navbar-left {
+.navbar ul {
   display: flex;
   align-items: center;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
-  padding-left: 15px;
-  font-family: "Work Sans";
-}
-.navbar .navbar-left > a {
-  text-decoration: none;
-  color: black;
-}
-.navbar .navbar-left ul {
-  display: none;
-}
-@media screen and (max-width: 1250px) {
-  .navbar .navbar-left > p {
-    padding-right: 20px;
-  }
-}
-@media screen and (max-width: 1250px) and (max-width: 835px) {
-  .navbar .navbar-left > p {
-    display: none;
-  }
-}
-.navbar .navbar-middle {
-  display: flex;
-  align-items: center;
-  width: 700px;
-  height: 50px;
-  border: 1px solid black;
-  border-radius: 30px;
-  gap: 20px;
-  font-family: "Work Sans";
-}
-@media screen and (max-width: 835px) {
-  .navbar .navbar-middle {
-    display: none;
-  }
-}
-.navbar .navbar-middle > i {
-  padding-left: 20px;
-}
-.navbar .navbar-right {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  padding-right: 30px;
-  font-family: "Work Sans";
+  padding: 0 5%;
+  list-style: none;
 }
-.navbar .navbar-right > a {
-  text-decoration: none;
-  color: black;
+.navbar ul input {
+  position: relative;
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 40px;
 }
-@media screen and (max-width: 1250px) {
-  .navbar .navbar-right a {
-    padding-left: 20px;
-  }
+.navbar ul .fa-magnifying-glass {
+  position: absolute;
+  padding-left: 320px;
 }
-@media screen and (max-width: 835px) {
-  .navbar .navbar-right a {
-    display: none;
-  }
+.navbar ul li {
+  padding: 10px 30px;
+  position: relative;
 }
-.navbar .navbar-right .fa-magnifying-glass {
+.navbar ul li a h1 {
+  font-weight: 600;
+  font-size: 115%;
+}
+.navbar ul li .dropdown-menu {
   display: none;
 }
-@media screen and (max-width: 835px) {
-  .navbar .navbar-right .fa-magnifying-glass {
-    display: initial;
-  }
+.navbar ul li .dropdown-menu ul {
+  display: block;
+  margin: 10px;
 }
-@media screen and (max-width: 1250px) {
-  .navbar .navbar-right > p {
-    padding-left: 40px;
-  }
+.navbar ul li .dropdown-menu ul li {
+  width: 150px;
+  padding: 10px;
 }
-@media screen and (max-width: 835px) {
-  .navbar .navbar-right > p {
-    display: none;
-  }
-}
-.navbar .navbar-right .login {
-  width: 80px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-}
-@media screen and (max-width: 835px) {
-  .navbar .navbar-right .login {
-    display: none;
-  }
-}
-.navbar .navbar-right .login > a {
-  text-decoration: none;
-  color: black;
-}
-.navbar .navbar-right .signup {
-  width: 80px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  background-color: rgba(0, 0, 0, 0.572);
-}
-@media screen and (max-width: 835px) {
-  .navbar .navbar-right .signup {
-    display: none;
-  }
-}
-.navbar .navbar-right .signup > a {
-  text-decoration: none;
+.navbar ul li .dropdown-menu ul li a {
   color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+.navbar ul li .dropdown-menu ul li a:hover {
+  color: blue;
+}
+.navbar ul li .dropdown-menu ul li .dropdown-menu-2 {
+  display: none;
+}
+.navbar ul li .dropdown-menu ul li:hover .dropdown-menu-2 {
+  display: block;
+  position: absolute;
+  top: 100%;
+  margin-top: -20px;
+  margin-left: 140px;
+  z-index: 1;
+  background-color: rgb(201, 199, 199);
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+.navbar ul li a:hover {
+  color: blue;
+}
+.navbar ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  background-color: rgb(201, 199, 199);
+}
+.navbar ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+.navbar ul li:hover .dropdown-menu ul li {
+  width: 150px;
+  padding: 10px;
 }
 
 .footer {
@@ -259,14 +206,10 @@ table {
   box-sizing: border-box;
 }
 
-body .solid {
-  width: 100%;
-  margin-top: 15px;
-}
 body .slider {
   width: 1250px;
   margin: auto;
-  margin-top: -20px;
+  margin-top: 50px;
   position: relative;
 }
 @media screen and (max-width: 1250px) {
@@ -302,7 +245,7 @@ body .slider .slide-button:hover {
   background: #444;
 }
 body .slider #prev-slide {
-  left: -20px;
+  left: -50px;
   display: none;
 }
 body .slider #next-slide {
@@ -438,6 +381,7 @@ body .main .courses-name > h3 {
   font-weight: 600;
 }
 body .main .courses-table {
+  position: relative;
   height: 550px;
   width: 1270px;
   border: 1px solid rgba(0, 0, 0, 0.247);
@@ -464,7 +408,10 @@ body .main .courses-table > p {
   line-height: 30px;
   font-size: 110%;
 }
-body .main .courses-table .button {
+body .main .courses-table > a {
+  text-decoration: none;
+}
+body .main .courses-table > a .button {
   width: 160px;
   height: 40px;
   border: 1px solid black;
@@ -472,10 +419,39 @@ body .main .courses-table .button {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  cursor: pointer;
+}
+body .main .courses-table > a .button:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+body .main .courses-table .slide-button {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  border: none;
+  outline: none;
+  background: black;
+  font-size: 2.2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transform: translateY(20%);
+}
+body .main .courses-table .slide-button:hover {
+  background: #444;
+}
+body .main .courses-table #prev-slide {
+  left: -20px;
+}
+body .main .courses-table #next-slide {
+  right: -20px;
 }
 body .main .courses-table .courses {
+  overflow-x: auto;
+  scrollbar-width: none;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   gap: 10px;
 }
 body .main .courses-table .courses .courses-card .top {
@@ -622,7 +598,8 @@ body .comment .card-container .comment-card .card-bottom > .circle > i {
   color: white;
   width: 10px;
 }
-body .comment .card-container .comment-card .card-bottom > h4 {
+body .comment .card-container .comment-card .card-bottom > a {
+  text-decoration: none;
   color: #5624d0;
 }
 body .comment .card-container .one .card-middle {
@@ -1211,14 +1188,11 @@ body .info > .solid {
   box-sizing: border-box;
 }
 
-body .solid {
-  width: 100%;
-  margin-top: 15px;
-}
 body form {
   width: 1250px;
   margin: auto;
   width: 640px;
+  margin-top: 50px;
   padding-left: 150px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -1311,6 +1285,7 @@ body form button {
   border: 1px solid purple;
   background-color: #a435f0;
   outline: none;
+  cursor: pointer;
 }
 @media screen and (max-width: 1250px) {
   body form button {
@@ -1320,6 +1295,9 @@ body form button {
 body form button > h3 {
   color: white;
 }
+body form button:hover {
+  background-color: rgba(165, 53, 240, 0.7921568627);
+}
 
 * {
   margin: 0;
@@ -1327,10 +1305,6 @@ body form button > h3 {
   box-sizing: border-box;
 }
 
-body .solid {
-  width: 100%;
-  margin-top: 15px;
-}
 body .two {
   width: 1250px;
   margin: auto;
@@ -1340,6 +1314,7 @@ body .two {
   background-color: white;
   padding-top: 100px;
   font-family: "Work Sans";
+  margin-top: 50px;
 }
 @media screen and (max-width: 1250px) {
   body .two {
@@ -1423,6 +1398,7 @@ body .two button {
   border: 1px solid purple;
   background-color: #a435f0;
   outline: none;
+  cursor: pointer;
 }
 @media screen and (max-width: 1250px) {
   body .two button {
@@ -1431,6 +1407,9 @@ body .two button {
 }
 body .two button > h3 {
   color: white;
+}
+body .two button:hover {
+  background-color: rgba(165, 53, 240, 0.7921568627);
 }
 body > .footer {
   margin-top: 70px;
@@ -1443,7 +1422,6 @@ body > .footer {
 }
 
 body .black {
-  margin-top: 20px;
   width: 100%;
   height: 400px;
   background-color: rgba(0, 0, 0, 0.815);
@@ -1599,6 +1577,7 @@ body .main-field .right-side button {
   margin-top: 10px;
   padding-bottom: 20px;
   padding-right: 20px;
+  cursor: pointer;
 }
 @media screen and (max-width: 1250px) {
   body .main-field .right-side button {
@@ -1612,6 +1591,9 @@ body .main-field .right-side button {
 }
 body .main-field .right-side button > h3 {
   color: white;
+}
+body .main-field .right-side button:hover {
+  background-color: rgba(165, 53, 240, 0.7921568627);
 }
 body .main-field .right-side p {
   padding-left: 30px;
@@ -1893,6 +1875,19 @@ body .user-comment .submit-review p {
 body .user-comment .submit-review:hover {
   background-color: rgba(255, 50, 77, 0.788);
 }
+body .user-comment .comment-text {
+  display: grid;
+  grid-template-columns: repeat(3, 10fr);
+  height: 200px;
+  overflow: auto;
+}
+body .user-comment .comment-text .user-comment-text {
+  width: 300px;
+  margin-top: 40px;
+}
+body .user-comment .comment-text .user-comment-text p {
+  padding-top: 10px;
+}
 body .footer-for-detail {
   margin-top: 0;
 }
@@ -1908,7 +1903,6 @@ body .section-one {
   width: 100%;
   height: 378px;
   background-color: rgba(128, 128, 128, 0.171);
-  margin-top: -40px;
 }
 body .section-one .left-side-about-page {
   font-family: "Work Sans";
@@ -2134,7 +2128,7 @@ body .main-cart > h1 {
   padding-bottom: 40px;
 }
 body .main-cart .solid {
-  width: 900px;
+  width: 850px;
   margin-left: 110px;
 }
 body .main-cart .main-cart-section {
@@ -2166,6 +2160,142 @@ body .main-cart .main-cart-section .course-field .course-info-field .rating {
 body .main-cart .main-cart-section .course-field .course-info-field .mini-info {
   display: flex;
   padding-top: 10px;
+}
+body .main-cart .main-cart-section .course-field > .price {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+body .main-cart .main-cart-section .course-field .fa-trash {
+  padding-left: 80px;
+  padding-top: 35px;
+}
+body .main-cart .main-cart-section .right-cart-field {
+  margin-left: -30px;
+  margin-top: -40px;
+  font-family: "Work Sans";
+}
+body .main-cart .main-cart-section .right-cart-field > h2 {
+  color: rgb(96, 95, 95);
+  padding-bottom: 15px;
+}
+body .main-cart .main-cart-section .right-cart-field > h1 {
+  color: rgba(0, 0, 0, 0.825);
+}
+body .main-cart .main-cart-section .right-cart-field > del {
+  font-size: 120%;
+}
+body .main-cart .main-cart-section .right-cart-field > p {
+  padding-top: 15px;
+  font-size: 120%;
+  color: red;
+}
+body .main-cart .main-cart-section .right-cart-field button {
+  background-color: #a435f0;
+  width: 240px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-top: 18px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+body .main-cart .main-cart-section .right-cart-field button > h3 {
+  color: white;
+}
+body .main-cart .main-cart-section .right-cart-field button:hover {
+  background-color: rgba(165, 53, 240, 0.8235294118);
+}
+body .viewing {
+  position: relative;
+  padding-top: 80px;
+}
+body .viewing .slide-button {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  border: none;
+  outline: none;
+  background: black;
+  font-size: 2.2rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+body .viewing .slide-button:hover {
+  background: #444;
+}
+body .viewing #prev-slide {
+  left: -40px;
+}
+body .viewing #next-slide {
+  right: -20px;
+}
+body .viewing .card-container {
+  display: grid;
+  overflow-x: auto;
+  scrollbar-width: none;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .main-cart {
+  font-family: "Work Sans";
+  margin-top: 50px;
+}
+body .main-cart > h1 {
+  padding-left: 120px;
+  font-size: 250%;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.815);
+  padding-bottom: 40px;
+}
+body .main-cart .solided {
+  width: 1200px;
+  margin-left: 110px;
+}
+body .main-cart #main-cart-section {
+  padding-bottom: 40px;
+}
+body .main-cart .main-cart-section {
+  display: flex;
+}
+body .main-cart .main-cart-section .course-field {
+  display: flex;
+  padding-left: 110px;
+}
+body .main-cart .main-cart-section .course-field > #img {
+  width: 300px;
+  height: 200px;
+}
+body .main-cart .main-cart-section .course-field #my-courses-info {
+  width: 800px;
+  padding-left: 30px;
+}
+body .main-cart .main-cart-section .course-field #my-courses-info > a {
+  text-decoration: none;
+  color: black;
+  font-size: 120%;
+}
+body .main-cart .main-cart-section .course-field #my-courses-info > p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 120%;
+}
+body .main-cart .main-cart-section .course-field #my-courses-info .rating {
+  display: flex;
+  gap: 10px;
+}
+body .main-cart .main-cart-section .course-field #my-courses-info .mini-info {
+  display: flex;
+  padding-top: 10px;
+  gap: 20px;
 }
 body .main-cart .main-cart-section .course-field > .price {
   padding-left: 100px;
@@ -2212,6 +2342,22 @@ body .main-cart .main-cart-section .right-cart-field button > h3 {
 body .main-cart .main-cart-section .right-cart-field button:hover {
   background-color: rgba(165, 53, 240, 0.7764705882);
 }
-body .viewing {
-  padding-top: 80px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .video-field {
+  padding-left: 150px;
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
+}
+body .video-field .right-video-field {
+  width: 250px;
+  height: 510px;
+  margin-top: -22px;
+  overflow: auto;
 }

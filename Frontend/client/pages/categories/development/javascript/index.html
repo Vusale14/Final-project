@@ -9,27 +9,67 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="navbar-left">
-            <a href="../../../home-page/index.html"><h1>udemy</h1></a>
-            <p>Categories</p>
-        </div>
-        <div class="navbar-middle">
+        <ul>
+            <li><a href="../../../home-page/index.html"><h1>Udemy</h1></a></li>
+            <li><a href="#">Categories</a>
+                <div class="dropdown-menu">
+                    <ul>
+                        <li><a href="../../development/index.html">Development</a>
+                            <div class="dropdown-menu-2">
+                                <ul>
+                                    <li><a href="../../development/python/index.html">Python</a></li>
+                                    <li><a href="../../development/javascript/index.html">Javascript</a></li>
+                                    <li><a href="../../development/next.js/index.html">Next Js</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="../../marketing/index.html">Marketing</a>
+                            <div class="dropdown-menu-2">
+                                <ul>
+                                    <li><a href="../../marketing/digital-marketing/index.html">Digital Marketing</a></li>
+                                    <li><a href="../../marketing/smm/index.html">SMM</a></li>
+                                    <li><a href="../../marketing/content-marketing/index.html">Content Marketing</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="../../it and software/index.html">IT and Software</a>
+                            <div class="dropdown-menu-2">
+                                <ul>
+                                    <li><a href="../../it and software/amazon-aws/index.html">Amazon AWS</a></li>
+                                    <li><a href="../../it and software/ethical-hacking/index.html">Ethical Hacking</a></li>
+                                    <li><a href="../../it and software/cyber-security/index.html">Cyber Security</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="../index.html">Design</a>
+                            <div class="dropdown-menu-2">
+                                <ul>
+                                    <li><a href="../photoshop/index.html">Photoshop</a></li>
+                                    <li><a href="../graphic-design/index.html">Graphic Design</a></li>
+                                    <li><a href="../drawing/index.html">Drawing</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><input type="text" placeholder="Search for anything"></li>
             <i class="fa-solid fa-magnifying-glass"></i>
-            <p>Search for anything</p>
-        </div>
-        <div class="navbar-right">
-            <a href="../../../about-page/index.html">About Udemy</a>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <a href="../../../cart-page/index.html"><i class="fa-solid fa-cart-shopping"></i></a>
-            <div class="login">
-                <a href="../../../login-page/index.html">Log in</a>
-            </div>
-            <div class="signup">
-                <a href="../../../signup-page/index.html" class="signup">Sign up</a>
-            </div>
-        </div>
+            <li><a href="../../../my-courses/index.html">My courses</a></li>
+            <li><a href="../../../about-page/index.html">About Udemy</a></li>
+            <li><a href="../../../cart-page/index.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li>
+                <div class="login">
+                    <a href="../../../login-page/index.html">Log in</a>
+                </div>
+            </li>
+            <li>
+                <div class="signup">
+                    <a href="../../../signup-page/index.html" class="signup">Sign up</a>
+                </div>
+            </li>
+        </ul>
     </div>
-    <div class="solid"></div>
     <div class="title">
         <h1>Javascript Courses</h1>
         <div class="learners">
@@ -45,7 +85,7 @@
                 <img src="../../assets/courses/react-picture.png" alt="">
             </div>
             <div class="bottom">
-                <h3>The Complete JavaScript Course 2024: From Zero!</h3>
+                <a href="../../../detail-page/index.html"><h3>The Complete JavaScript Course 2024: From Zero!</h3></a>
                 <p>Jonas Schmedtmann</p>
                 <div class="rating">
                     <h4>4.7</h4>
@@ -68,7 +108,7 @@
                 <img src="../../assets/courses/python-picture3.jpg" alt="">
             </div>
             <div class="bottom">
-                <h3>100 Days of Code: The Complete Python</h3>
+                <a href="../../../detail-page/index.html"><h3>100 Days of Code: The Complete Python</h3></a>
                 <p>Dr. Angela Yu</p>
                 <div class="rating">
                     <h4>4.7</h4>
@@ -92,7 +132,7 @@
                 <img src="../../assets/courses/python-picture1.png" alt="">
             </div>
             <div class="bottom">
-                <h3>The Complete Python Bootcamp From Zero</h3>
+                <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero</h3></a>
                 <p>Jose Portilla</p>
                 <div class="rating">
                     <h4>4.6</h4>
@@ -116,7 +156,7 @@
                 <img src="../../assets/courses/aws-picture.png" alt="">
             </div>
             <div class="bottom">
-                <h3>[NEW] Ultimate AWS <br/> Certified Cloud Practitioner</h3>
+                <a href="../../../detail-page/index.html"><h3>[NEW] Ultimate AWS <br/> Certified Cloud Practitioner</h3></a>
                 <p>Stephane Maarek</p>
                 <div class="rating">
                     <h4>4.7</h4>
@@ -140,7 +180,7 @@
                 <img src="../../assets/courses/javascript-picture.jpg" alt="">
             </div>
             <div class="bottom">
-                <h3>The Complete JavaScript Course 2024 From Zero</h3>
+                <a href="../../../detail-page/index.html"><h3>The Complete JavaScript Course 2024 From Zero</h3></a>
                 <p>Jonas Schmedtmann</p>
                 <div class="rating">
                     <h4>4.7</h4>
@@ -166,7 +206,7 @@
                 <img src="../../assets/courses/web-development.jpg" alt="">
             </div>
             <div class="bottom">
-                <h3>Complete Responsive Web Development: 4 courses in 1</h3>
+                <a href="../../../detail-page/index.html"><h3>Complete Responsive Web Development: 4 courses in 1</h3></a>
                 <p>Creative Online School</p>
                 <div class="rating">
                     <h4>4.6</h4>
@@ -190,7 +230,7 @@
                 <img src="../../assets/courses/html-css.jpg" alt="">
             </div>
             <div class="bottom">
-                <h3>HTML, CSS, & Bootstrap-Certification Course</h3>
+                <a href="../../../detail-page/index.html"><h3>HTML, CSS, & Bootstrap-Certification Course</h3></a>
                 <p>YouAccel Training</p>
                 <div class="rating">
                     <h4>4.4</h4>
@@ -214,7 +254,7 @@
                 <img src="../../assets/courses/frontend-picture.png" alt="">
             </div>
             <div class="bottom">
-                <h3>Learn Complete Front-End Web Development Course</h3>
+                <a href="../../../detail-page/index.html"><h3>Learn Complete Front-End Web Development Course</h3></a>
                 <p>Fatah Gabrial</p>
                 <div class="rating">
                     <h4>4.5</h4>
@@ -238,7 +278,7 @@
                 <img src="../../assets/courses/angular-picture.jpg" alt="">
             </div>
             <div class="bottom">
-                <h3>The Front-End Web Developer Bootcamp</h3>
+                <a href="../../../detail-page/index.html"><h3>The Front-End Web Developer Bootcamp</h3></a>
                 <p>Meta Brains</p>
                 <div class="rating">
                     <h4>4.3</h4>
@@ -262,7 +302,7 @@
                 <img src="../../assets/courses/micro-frontend.png" alt="">
             </div>
             <div class="bottom">
-                <h3>Microfrontends with React: A Complete Guide</h3>
+                <a href="../../../detail-page/index.html"><h3>Microfrontends with React: A Complete Guide</h3></a>
                 <p>Stephen Grider</p>
                 <div class="rating">
                     <h4>4.7</h4>
@@ -297,7 +337,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -328,7 +368,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -359,7 +399,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -390,7 +430,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -421,7 +461,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -452,7 +492,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -483,7 +523,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -514,7 +554,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -545,7 +585,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -576,7 +616,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -607,7 +647,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -638,7 +678,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -669,7 +709,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -700,7 +740,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">
@@ -731,7 +771,7 @@
                     <img src="../../assets/courses/react-picture.png" alt="">
                 </div>
                 <div class="bottom">
-                    <h3>The Complete Python Bootcamp From Zero to Hero in Python</h3>
+                    <a href="../../../detail-page/index.html"><h3>The Complete Python Bootcamp From Zero to Hero in Python</h3></a>
                     <p>Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games</p>
                     <p>Jose Portilla</p>
                     <div class="rating">

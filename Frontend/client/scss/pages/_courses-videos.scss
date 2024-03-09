@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    .video-field {
+        padding-left: 150px;
+        display: flex;
+        gap: 50px;
+        padding-top: 50px;
+
+        .right-video-field {
+            width: 250px;
+            height: 510px;
+            margin-top: -22px;
+            overflow: auto;
+        }
+    }
+}

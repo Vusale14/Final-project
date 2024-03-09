@@ -8,6 +8,7 @@ body {
 
     .main-cart {
         font-family: "Work Sans";
+        margin-top: 50px;
 
         >h1 {
             padding-left: 120px;
@@ -17,9 +18,13 @@ body {
             padding-bottom: 40px;
         }
 
-        .solid {
-            width: 850px;
+        .solided {
+            width: 1200px;
             margin-left: 110px;
+        }
+
+        #main-cart-section {
+            padding-bottom: 40px;
         }
 
         .main-cart-section {
@@ -29,22 +34,25 @@ body {
                 display: flex;
                 padding-left: 110px;
     
-                >img {
-                    width: 150px;
-                    height: 120px;
+                >#img {
+                    width: 300px;
+                    height: 200px;
                 }
     
-                .course-info-field {
-                    width: 400px;
+                #my-courses-info {
+                    width: 800px;
                     padding-left: 30px;
     
-                    >h4 {
-                        line-height: 20px;
+                    >a {
+                        text-decoration: none;
+                        color: black;
+                        font-size: 120%;
                     }
     
                     >p {
-                        padding-top: 10px;
-                        padding-bottom: 10px;
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                        font-size: 120%;
                     }
     
                     .rating {
@@ -55,6 +63,7 @@ body {
                     .mini-info {
                         display: flex;
                         padding-top: 10px;
+                        gap: 20px;
                     }
                 }
     
@@ -63,14 +72,14 @@ body {
                     padding-top: 20px;
                 }
     
-                .fa-trash {
-                    padding-left: 80px;
-                    padding-top: 35px;
+                >.fa-trash {
+                    padding-left: 50px;
+                    padding-top: 30px;
                 }
             }
     
             .right-cart-field {
-                margin-left: -30px;
+                padding-left: 250px;
                 margin-top: -40px;
                 font-family: "Work Sans";
 
@@ -110,48 +119,9 @@ body {
                 }
 
                 button:hover {
-                    background-color: #a535f0d2;
+                    background-color: #a535f0c6;
                 }
             }
-        }
-    }
-
-    .viewing {
-        position: relative;
-        padding-top: 80px;
-
-        .slide-button {
-            position: absolute;
-            top: 50%;
-            height: 50px;
-            width: 50px;
-            color: #fff;
-            border: none;
-            outline: none;
-            background: black;
-            font-size: 2.2rem;
-            cursor: pointer;
-            border-radius: 50%;
-            // transform: translateX(-50%);
-        }
-
-        .slide-button:hover {
-            background: #444;
-        }
-
-        #prev-slide {
-            left: -40px;
-        }
-
-        #next-slide {
-            right: -20px;
-        }
-
-        .card-container {
-            display: grid;
-            overflow-x: auto;
-            scrollbar-width: none;
-            grid-template-columns: repeat(10, 1fr);
         }
     }
 }

@@ -5,17 +5,10 @@
   }
   
   body {
-  
-    .solid {
-      width: 100%;
-      margin-top: 15px;
-    }
     
       .slider {
         @include container;
-          // height: 450px;    
-          // overflow: hidden;
-          margin-top: -20px;
+          margin-top: 50px;
           position: relative;  
           @include for-size(tablet) {
             width: 100%;
@@ -41,7 +34,7 @@
           }
 
           #prev-slide {
-            left: -20px;
+            left: -50px;
             display: none;
           }
 
@@ -184,6 +177,7 @@
         }
   
         .courses-table {
+          position: relative;
           height: 550px;
           width: 1270px;
           border: 1px solid rgba(0, 0, 0, 0.247);
@@ -210,19 +204,58 @@
             font-size: 110%;
           }
   
-          .button {
-            width: 160px;
-            height: 40px;
-            border: 1px solid black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 20px;
+          >a {
+            text-decoration: none;
+
+            .button {
+              width: 160px;
+              height: 40px;
+              border: 1px solid black;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 20px;
+              cursor: pointer;
+            }
+  
+            .button:hover {
+              background-color: rgba(0, 0, 0, 0.12);
+            }
+          }
+
+          .slide-button {
+            position: absolute;
+            top: 50%;
+            height: 50px;
+            width: 50px;
+            color: #fff;
+            border: none;
+            outline: none;
+            background: black;
+            font-size: 2.2rem;
+            cursor: pointer;
+            border-radius: 50%;
+            transform: translateY(20%);
+          }
+
+          .slide-button:hover {
+            background: #444;
+          }
+
+          #prev-slide {
+            left: -20px;
+            // display: none;
+          }
+
+          #next-slide {
+            right: -20px;
           }
   
           .courses {
+            overflow-x: auto;
+            scrollbar-width: none;
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(10, 1fr);
             gap: 10px;
   
             .courses-card {
@@ -382,8 +415,9 @@
                   width: 10px;
                 }
               }
-    
-              >h4 {
+
+              >a {
+                text-decoration: none;
                 color: #5624d0;
               }
             }
